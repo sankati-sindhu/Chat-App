@@ -1,0 +1,214 @@
+<html>
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+
+</head>
+
+<body style="margin: auto 200px 20vw auto">
+  <div class="c27">
+    <p class="c11"><span class="c32">CRYPTOGRAPHY PROJECT:</span></p>
+    <p class="c11"><span class="c32">RSA LITE PROJECT REPORT</span></p>
+    <p class="c11 c10"><span class="c25"></span></p>
+    <h1 class="c3 c5" id="h.5dbo5py6wpug"><span
+        class="c30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </h1>
+    <p class="c3 c10"><span class="c13"></span></p>
+    <hr style="page-break-before:always;display:none;">
+    <p class="c3 c10"><span class="c17 c36 c42"></span></p>
+    <h1 class="c3 c5" id="h.7xm85wx859ql"><span class="c30">Table of Contents:</span></h1>
+    <p class="c41"><span class="c7"><a class="c19" href="#h.7xm85wx859ql">Table of Contents:</a></span></p>
+    <p class="c39"><span class="c7"><a class="c19" href="#h.5sfse671s74j">I Introduction</a></span></p>
+    <p class="c16"><span class="c7"><a class="c19" href="#h.n04xycusutzl">1.1 PROBLEM STATEMENT</a></span></p>
+    <p class="c16"><span class="c7"><a class="c19" href="#h.ywvfok5y1daq">1.2 LITERATURE REVIEW</a></span></p>
+    <p class="c16"><span class="c7"><a class="c19" href="#h.ayaqmvwfh5qx">1.3 RSA ALGORITHM</a></span></p>
+    <p class="c39"><span class="c7"><a class="c19" href="#h.tge7iw5vil8f">II Deployment</a></span></p>
+    <p class="c16"><span class="c7"><a class="c19" href="#h.sxmm1qi3mlq6">2.1 TECH STACK USED</a></span></p>
+    <p class="c16"><span class="c7"><a class="c19" href="#h.ovark13e5h2i">2.2 DEVELOPMENT ENVIRONMENT</a></span></p>
+    <p class="c16"><span class="c7"><a class="c19" href="#h.r3iqj6biiaff">2.3 LOCAL SET UP</a></span></p>
+    <p class="c16"><span class="c7"><a class="c19" href="#h.fxrlsqb1v540">2.4 DATABASE SCHEMES</a></span></p>
+    <p class="c16"><span class="c7"><a class="c19" href="#h.ql2tdk8h23qe">2.5 FLOW DIAGRAMS</a></span></p>
+    <p class="c16"><span class="c7"><a class="c19" href="#h.4nr4yz6vb2lh">2.5 OUTPUTS</a></span></p>
+    <p class="c39"><span class="c7"><a class="c19" href="#h.x7bjtw146kf1">III Conclusions</a></span></p>
+    <p class="c38"><span class="c7"><a class="c19" href="#h.7fubjx4ycc4k">IV References :</a></span></p>
+    <p class="c3 c10"><span class="c2"></span></p>
+    <h1 class="c3 c5 c43" id="h.1tswdrx0p86h"><span class="c30"></span></h1>
+    <h1 class="c3 c5" id="h.5sfse671s74j"><span class="c30">I Introduction</span></h1>
+    <h2 class="c3 c5" id="h.n04xycusutzl"><span>1.1 </span><span>PROBLEM STATEMENT</span></h2>
+    <p class="c3"><span class="c2">To develop a simplified RSA clone with minimized rounds and key size where the
+        developed model could be used in real time applications . Hence we created a real time web chat with rsa
+        encryption .</span></p>
+    <p class="c3 c10"><span class="c14"></span></p>
+    <h2 class="c3 c5" id="h.ywvfok5y1daq"><span>1.2 LITERATURE REVIEW </span></h2>
+    <p class="c3"><span>Cryptography is the study of techniques that are used to secure a communication. The RSA
+        algorithm
+        is one of the most efficient public key cryptosystems. It is an asymmetric algorithm involving both public and
+        private keys for encryption and decryption respectively . Concepts used here are keys , plain text , cipher text
+        ,
+        encryption and decryption. In a research paper they concluded that AES algorithm is better among Symmetric
+        algorithms and RSA algorithm is found as better solution in asymmetric encryption technique . </span></p>
+    <p class="c3 c10"><span class="c4"></span></p>
+    <h2 class="c3 c5" id="h.ayaqmvwfh5qx"><span>1.3 RSA ALGORITHM </span></h2>
+    <p class="c3"><span class="c14">RSA is one of the oldest algorithms and is a public key cryptosystem that is used to
+        secure data transmission . The expansion of RSA is Rivest-Shamir-Adleman which is derived from the surnames of
+        its
+        designers Ron Rivest , &nbsp;Adi Shamir and Leonard Adleman who published it in 1997. RSA is an asymmetric
+        cryptography algorithm / public key encryption algorithm hence it actually works on both public key (given to
+        everyone/all the receivers) and private key (is only with the owner/sender). Here public key is used for
+        encryption and private key is used for decryption .</span></p>
+    <p class="c3 c10"><span class="c14"></span></p>
+    <p class="c3"><span class="c31">The steps involved in the RSA algorithm are as follows :</span></p>
+    <p class="c3 c10"><span class="c14"></span></p>
+    <p class="c3"><span class="c12">STEP - 1 :</span></p>
+    <p class="c3"><span>Firstly let us consider any two large prime numbers </span><span
+        class="c36">&lsquo;p&rsquo;</span><span>&nbsp;and</span><span class="c8">&nbsp;&lsquo;q&rsquo; .</span></p>
+    <p class="c3 c10"><span class="c14"></span></p>
+    <p class="c3"><span class="c12">STEP - 2 :</span></p>
+    <p class="c3"><span class="c29">Now we shall multiply both the prime numbers and the product will be
+        &lsquo;</span><span class="c1">n</span><span class="c14">&rsquo; and is called as the modulus for encryption and
+        decryption .</span></p><a id="t.74d6b3489bee8590e8f3319aae2f374cfb25f1e1"></a><a id="t.0"></a>
+    <table class="c6">
+      <tbody>
+        <tr class="c21">
+          <td class="c9" colspan="1" rowspan="1">
+            <p class="c24"><span class="c28">n=p*q</span></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="c3 c10"><span class="c14"></span></p>
+    <p class="c3"><span class="c18">STEP - 3 :</span></p>
+    <p class="c3"><span class="c29">We shall calculate the value of </span><span class="c1">&psi;(n)</span><span
+        class="c14">.</span></p><a id="t.120f0a761d97fdcdf791c1ae861df2eb895de524"></a><a id="t.1"></a>
+    <table class="c6">
+      <tbody>
+        <tr class="c21">
+          <td class="c9" colspan="1" rowspan="1">
+            <p class="c24"><span class="c23">&#x1d753;(n)=(p-1)*(q-1)<br></span><span
+                class="c22 c45"><br>[&#8757;&#x1d753;(n)=&#x1d753;(p)*&#x1d753;(q)<br>here , &#x1d753;(p)=p-1 and
+                &nbsp;&#x1d753;(q)=q-1<br>because both p and q are prime numbers]</span></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="c3 c10"><span class="c14"></span></p>
+    <p class="c3 c10"><span class="c14"></span></p>
+    <p class="c3"><span class="c18">STEP - 4 :</span></p>
+    <p class="c3"><span class="c29">Now we will assume a &lsquo;</span><span class="c1">e</span><span
+        class="c14">&rsquo;
+        such that </span></p><a id="t.f6ab3f1493955ff9d2680154f938a68a940c83fa"></a><a id="t.2"></a>
+    <table class="c6">
+      <tbody>
+        <tr class="c44">
+          <td class="c9" colspan="1" rowspan="1">
+            <p class="c24"><span class="c28">gcd(e,&#x1d753;(n))=</span><span class="c20">1</span></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="c11 c10"><span class="c14"></span></p>
+    <p class="c3 c10"><span class="c14"></span></p>
+    <p class="c3"><span class="c18">STEP - 5 :</span></p>
+    <p class="c3"><span class="c29">Next we will assume a &lsquo;</span><span class="c1">d</span><span
+        class="c14">&rsquo;
+        such that</span></p>
+    <p class="c3 c10"><span class="c14"></span></p><a id="t.77cac3dd5794a6f28f4baa4735ba0125080ac3ab"></a><a
+      id="t.3"></a>
+    <table class="c6">
+      <tbody>
+        <tr class="c21">
+          <td class="c9" colspan="1" rowspan="1">
+            <p class="c24"><span class="c23">d*e mod &#x1d753;(n)=1<br></span><span class="c22"><br>[&#8757;d &asymp;
+                e^(-1)mod&#x1d753;(n)<br>d*e=1mod&#x1d753;(n)<br>d*e mod&#x1d753;(n) = 1 mod&#x1d753;(n)<br>&rArr; d*e
+                mod
+                &#x1d753;(n)=1]</span></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="c3 c10"><span class="c14"></span></p>
+    <p class="c3"><span class="c18">STEP - 6 :</span></p>
+    <p class="c3"><span class="c14">Therefore the public key used for encryption and the private key used for decryption
+        are as follows :</span></p><a id="t.eddcdef9b41afc5dd0b1e78648a301a13b4e4258"></a><a id="t.4"></a>
+    <table class="c6">
+      <tbody>
+        <tr class="c21">
+          <td class="c9" colspan="1" rowspan="1">
+            <p class="c24"><span class="c23">public key = {e,n}<br>private key = {d,n}</span></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="c11 c10"><span class="c14"></span></p>
+    <p class="c10 c11"><span class="c14"></span></p>
+    <p class="c3"><span class="c18">STEP - 7 :</span></p>
+    <p class="c3"><span class="c29">Now &lsquo;</span><span class="c1">m</span><span class="c29">&rsquo; is the plain
+        text
+        message and &lsquo;</span><span class="c1">c</span><span class="c14">&rsquo; is the cipher text message .</span>
+    </p>
+    <p class="c3"><span class="c14">Here m must be less than n and the following formulas are used to encrypt the plain
+        text to get the cipher text and decrypt the cipher text to get the plain text .</span></p><a
+      id="t.403f9052b7a2382344e1999179877c7075bbf929"></a><a id="t.5"></a>
+    <table class="c6">
+      <tbody>
+        <tr class="c21">
+          <td class="c9" colspan="1" rowspan="1">
+            <p class="c24"><span class="c23">m&lt;n<br>c=m^e mod n (encryption)<br>m=c^d mod n (decryption)</span></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="c11 c10"><span class="c26"></span></p>
+    <h1 class="c3 c43 c5" id="h.81phb1n5wdp7"><span class="c30"></span></h1>
+    <h1 class="c3 c5" id="h.tge7iw5vil8f"><span>II </span><span class="c30">Deployment </span></h1>
+    <h2 class="c3 c5" id="h.sxmm1qi3mlq6"><span class="c4">2.1 TECH STACK USED</span></h2>
+    <p class="c3"><span class="c2">The frameworks and technologies we used for implementing our project were:</span></p>
+    <p class="c3"><span class="c36">&gt; Node.Js</span></p>
+    <p class="c3"><span class="c8">&gt; Express</span></p>
+    <p class="c3"><span class="c8">&gt; Socket.Io</span></p>
+    <p class="c3"><span class="c8">&gt; DCrypt</span></p>
+    <p class="c3"><span class="c8">&gt; MongoDb</span></p>
+    <p class="c3 c10"><span class="c8"></span></p>
+    <h2 class="c3 c5" id="h.ovark13e5h2i"><span class="c4">2.2 DEVELOPMENT ENVIRONMENT</span></h2>
+    <p class="c3 c10"><span class="c8"></span></p>
+    <h2 class="c3 c5" id="h.r3iqj6biiaff"><span class="c4">2.3 LOCAL SET UP</span></h2>
+    <p class="c3 c10"><span class="c2"></span></p>
+    <h2 class="c3 c5" id="h.fxrlsqb1v540"><span class="c4">2.4 DATABASE SCHEMES</span></h2>
+    <p class="c3 c10"><span class="c2"></span></p>
+    <h2 class="c3 c5" id="h.ql2tdk8h23qe"><span class="c4">2.5 FLOW DIAGRAMS</span></h2>
+    <p class="c3 c10"><span class="c2"></span></p>
+    <h2 class="c3 c5" id="h.4nr4yz6vb2lh"><span class="c4">2.5 OUTPUTS</span></h2>
+    <p class="c3 c10"><span class="c2"></span></p>
+    <h1 class="c3 c5" id="h.x7bjtw146kf1"><span>III </span><span class="c30">Conclusions </span></h1>
+    <p class="c3"><span class="c29">In this project we created a real time web chat with rsa encryption . The RSA
+        algorithm is one of the most efficient algorithms as it provides many features . The RSA algorithm is
+        comparatively faster than few other encryption and decryption algorithms . The RSA algorithm is highly secured
+        as
+        well as easy to understand . While working on this project we understood how to implement the RSA algorithm and
+        our knowledge in web designing also got better .</span></p>
+    <p class="c3 c10"><span class="c2"></span></p>
+    <h1 class="c3 c5" id="h.7fubjx4ycc4k"><span class="c30">IV References :</span></h1>
+    <p class="c3 c10"><span class="c2"></span></p>
+    <p class="c3"><span class="c34"><a class="c19"
+          href="https://www.google.com/url?q=https://nodejs.org/en/about/&amp;sa=D&amp;source=editors&amp;ust=1637064805781000&amp;usg=AOvVaw2JhLwT-kSfkeWMfIvIjVJ7">https://nodejs.org/en/about/</a></span>
+    </p>
+    <p class="c3"><span class="c34"><a class="c19"
+          href="https://www.google.com/url?q=http://expressjs.com/&amp;sa=D&amp;source=editors&amp;ust=1637064805782000&amp;usg=AOvVaw0uiAKYO387VcBDRz5ZgNZN">http://expressjs.com/</a></span>
+    </p>
+    <p class="c3"><span class="c34"><a class="c19"
+          href="https://www.google.com/url?q=https://socket.io/&amp;sa=D&amp;source=editors&amp;ust=1637064805782000&amp;usg=AOvVaw31aSt2QJzL1ShAZDQEDZ1m">https://socket.io/</a></span>
+    </p>
+    <p class="c3"><span class="c34"><a class="c19"
+          href="https://www.google.com/url?q=https://dcrypt.app/home&amp;sa=D&amp;source=editors&amp;ust=1637064805783000&amp;usg=AOvVaw1UY8EjUMaxmBJWRbUJCbj7">https://dcrypt.app/home</a></span>
+    </p>
+    <p class="c3"><span class="c34"><a class="c19"
+          href="https://www.google.com/url?q=https://www.mongodb.com/&amp;sa=D&amp;source=editors&amp;ust=1637064805783000&amp;usg=AOvVaw1evg_6IgrOVQRlyJtpHfFx">https://www.mongodb.com/</a></span>
+    </p>
+    <p class="c3 c10"><span class="c2"></span></p>
+    <div>
+      <p class="c3 c10"><span class="c2"></span></p>
+    </div>
+  </div>
+</body>
+
+</html>
