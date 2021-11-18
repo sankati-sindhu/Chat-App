@@ -14,7 +14,14 @@ form.addEventListener('submit', function(event){
             username,
             password
         })
-    }).then((res) => res.json())
-
+    }).then((res) =>{
+        res.json()
+    }).catch((err)=> console.log(err))
     console.log(result)
+    if(result){
+        location.replace('login')
+    }else{
+        console.log("o-o")
+    }
+    // location.replace('login')
 });

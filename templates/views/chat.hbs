@@ -14,7 +14,10 @@
   <div class="container">
     <div class="leftSide">
       <div class="header">
+        <div>
+          <p style="font-size: medium; color:brown" class="userid" id={{user.id}}>{{ user.username }} </p>
 
+        </div>
         <ul class="nav_icons">
 
           <li>
@@ -39,81 +42,17 @@
       </div>
 
       <div class="chatlist">
-        <div class="block active">
-          <div class="details">
-            <div class="listhead">
-              <h4>Candance</h4>
-            </div>
-          </div>
-        </div>
 
-
+        {{#each names }}
         <div class="block">
           <div class="details">
-            <div class="listhead">
-              <h4>Jermy</h4>
+            <div id={{this.id}} class="listhead">
+              <h4>{{this.username}}</h4>
             </div>
           </div>
         </div>
-
-
-        <div class="block">
-
-          <div class="details">
-            <div class="listhead">
-              <h4>Stephen</h4>
-
-
-            </div>
-
-
-          </div>
-        </div>
-        <div class="block unread">
-
-          <div class="details">
-            <div class="listhead">
-              <h4>PKP</h4>
-
-
-            </div>
-
-
-          </div>
-        </div>
-        <div class="block">
-          <div class="details">
-            <div class="listhead">
-              <h4>Carrot</h4>
-            </div>
-          </div>
-        </div>
-        <div class="block">
-          <div class="details">
-            <div class="listhead">
-              <h4>Radish</h4>
-            </div>
-          </div>
-        </div>
-        <div class="block">
-          <div class="details">
-            <div class="listhead">
-              <h4>Offline</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="block">
-
-          <div class="details">
-            <div class="listhead">
-              <h4>Snowball</h4>
-
-
-            </div>
-
-          </div>
-        </div>
+        {{/each}}
+        <hr>
 
       </div>
     </div>
@@ -169,14 +108,49 @@
           <p>heov janbdk<br><span>07:20</span></p>
 
         </div>
+        <div class="message_in my_msg">
+          <p>Hi<br><span>07:15</span></p>
 
+        </div>
+        <div class="message_in frnd_msg">
+          <p>Hi<br><span>07:16</span></p>
+
+        </div>
+        <div class="message_in my_msg">
+          <p>avsajd<br><span>07:17</span></p>
+
+        </div>
+
+        <div class="message_in frnd_msg">
+          <p>heov janbdk<br><span>07:18</span></p>
+
+        </div>
+        <div class="message_in my_msg">
+          <p>avsajd<br><span>07:19</span></p>
+
+        </div>
+
+        <div class="message_in frnd_msg">
+          <p>heov janbdk<br><span>07:19</span></p>
+
+        </div>
+        <div class="message_in my_msg">
+          <p>avsajd<br><span>07:20</span></p>
+
+        </div>
+        <div class="message_in frnd_msg">
+          <p>heov janbdk<br><span>07:20</span></p>
+
+        </div>
 
       </div>
+
       <div class="chatbox_ip" style="position:absolute; bottom:0; right:0; width:100%">
         <input type="text" placeholder="Type a message here">
         <ion-icon name="paper-plane"></ion-icon>
       </div>
-    </div>
+
+      <script type="text/javascript" src="js/chat.js"></script>
 
 </body>
 
