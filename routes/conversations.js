@@ -1,7 +1,7 @@
-const express = require('express');
-const coversations = require('../models/coversations');
-const router = express.Router();
-const Coversations = require('../models/coversations')
+const express       = require('express');
+const coversations  = require('../models/coversations');
+const router        = express.Router();
+const Coversations  = require('../models/coversations')
 
 //new conv
 router.post("/", async (req, res) => {

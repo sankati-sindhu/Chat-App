@@ -13,7 +13,7 @@ router.get('/register', (req, res) =>{
 
 router.post('/login', async (req, res, next) => {
     // try{
-        console.log("is user", req.body)
+        // console.log("is user", req.body)
           passport.authenticate('local', {
             successRedirect: '/users/' + req.body.username,
             failureRedirect: '/users/login',
@@ -27,7 +27,7 @@ router.post('/login', async (req, res, next) => {
   
 });
 router.get('/:id', ensureAuthenticated, (req, res) =>{
-    console.log('username is ',req.user)
+    // console.log('username is ',req.user)
     // const obj = [
     //     {username: "hello", id:"1"},
     //     {username: "as", id:"2"},

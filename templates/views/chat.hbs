@@ -18,20 +18,26 @@
           <p style="font-size: medium; color:brown" class="userid" id={{user.id}}>{{ user.username }} </p>
 
         </div>
-        <ul class="nav_icons">
+        <form id="add-form" action="/users/:username" method="POST">
 
-          <li>
-            <div class="search">
-              <div>
-                <input type="text" placeholder="Add contacts">
+          <ul class="nav_icons">
+
+            <li>
+              <div class="search">
+                <div>
+                  <input id="addUserid" type="text" placeholder="Add contacts">
+                </div>
               </div>
-            </div>
-          </li>
-          <li>
-            <ion-icon name="person-add"></ion-icon>
-          </li>
+            </li>
+            <li>
+              <button type="submit">
+                <ion-icon name="person-add"></ion-icon>
 
-        </ul>
+              </button>
+            </li>
+
+          </ul>
+        </form>
       </div>
 
       <div class="search_ch">
@@ -43,24 +49,14 @@
 
       <div class="chatlist">
 
-        {{#each names }}
-        <div class="block">
-          <div class="details">
-            <div id={{this.id}} class="listhead">
-              <h4>{{this.username}}</h4>
-            </div>
-          </div>
-        </div>
-        {{/each}}
-        <hr>
-
       </div>
     </div>
     <div class="rightSide">
-      <div class="header" style="width: 100%;">
+      <div id="rightHeader" class="header" style="width: 100%; display:none">
         <div class="imgtext">
-
-          <h4>Candance<br> <span> Online</h4>
+          <h4 id="clickedFrd">Candance</h4>
+          <p style="display: none;" id="coversationId"></p>
+          <p style="display: none;" id="frdId"></p>
 
         </div>
         <ul class="nav_icons">
@@ -73,84 +69,21 @@
         </ul>
       </div>
 
-      <div class="chatbox" style="width: 100%;">
-        <div class="message_in my_msg">
-          <p>Hi<br><span>07:15</span></p>
-
-        </div>
-        <div class="message_in frnd_msg">
-          <p>Hi<br><span>07:16</span></p>
-
-        </div>
-        <div class="message_in my_msg">
-          <p>avsajd<br><span>07:17</span></p>
-
-        </div>
-
-        <div class="message_in frnd_msg">
-          <p>heov janbdk<br><span>07:18</span></p>
-
-        </div>
-        <div class="message_in my_msg">
-          <p>avsajd<br><span>07:19</span></p>
-
-        </div>
-
-        <div class="message_in frnd_msg">
-          <p>heov janbdk<br><span>07:19</span></p>
-
-        </div>
-        <div class="message_in my_msg">
-          <p>avsajd<br><span>07:20</span></p>
-
-        </div>
-        <div class="message_in frnd_msg">
-          <p>heov janbdk<br><span>07:20</span></p>
-
-        </div>
-        <div class="message_in my_msg">
-          <p>Hi<br><span>07:15</span></p>
-
-        </div>
-        <div class="message_in frnd_msg">
-          <p>Hi<br><span>07:16</span></p>
-
-        </div>
-        <div class="message_in my_msg">
-          <p>avsajd<br><span>07:17</span></p>
-
-        </div>
-
-        <div class="message_in frnd_msg">
-          <p>heov janbdk<br><span>07:18</span></p>
-
-        </div>
-        <div class="message_in my_msg">
-          <p>avsajd<br><span>07:19</span></p>
-
-        </div>
-
-        <div class="message_in frnd_msg">
-          <p>heov janbdk<br><span>07:19</span></p>
-
-        </div>
-        <div class="message_in my_msg">
-          <p>avsajd<br><span>07:20</span></p>
-
-        </div>
-        <div class="message_in frnd_msg">
-          <p>heov janbdk<br><span>07:20</span></p>
-
-        </div>
+      <div id="chatbox" class="chatbox" style="width: 100%; display:none;">
 
       </div>
-
-      <div class="chatbox_ip" style="position:absolute; bottom:0; right:0; width:100%">
-        <input type="text" placeholder="Type a message here">
-        <ion-icon name="paper-plane"></ion-icon>
+      <div id="messageBox" class="chatbox_ip" style="position:absolute; bottom:0; right:0; width:100%; display:none;">
+        <input id="messagebox" type="text" placeholder="Type a message here">
+        <ion-icon onclick="sendMessage()" name="paper-plane"></ion-icon>
       </div>
+      <img id="imgPlaceholder" src="./img/ship.png">
 
-      <script type="text/javascript" src="js/chat.js"></script>
+
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script type="text/javascript" src="js/chat.js"></script>
 
 </body>
 

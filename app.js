@@ -5,7 +5,7 @@ const hbs           = require('hbs')
 const bcrypt        = require('bcryptjs')
 const session       = require("express-session");
 const passport      = require('passport')
-const socketio      = require('socket.io');
+// const socketio      = require('socket.io');
 const http          = require('http')
 
 
@@ -15,7 +15,7 @@ const app = express()
 
 const server = http.createServer(app);
 
-const io = socketio(server)
+const io = require('socket.io')(server)
 //passport config
 require('./config/passport')(passport);
 
@@ -58,31 +58,44 @@ app.set("view engine", "hbs");
 app.set('views', template_path)
 hbs.registerPartials(partials_path)
 
-let clientSocketIds = [];
-let connectedUsers = [];
-// hbs helpers for loop
-hbs.registerHelper('times', function(n, name, block){
+// let clientSocketIds = [];
+let users = [];
 
-    var accum = '';
-    for(var i = 0; i < n; ++i)
-        accum += block.fn(
-            // `<div class="block active">
-            // <div class="details">
-            //     <div class="listhead">
-            //     <h4>Candance</h4>
-            //     </div>
-            // </div>
-            // </div>`
-            i
-        );
-    return accum;
-});
-io.sockets.on('connection', (socket)=>{
+const addUser = (userId, socketId) =>{
+    !users.some(user => user.userId === userId) &&
+        users.push({userId, socketId});
+};
+
+const removeUser = (socketId) => {
+    usres = users.filter(user => user.socketId !== socketId);
+};
+
+const getUser = (userId) => {
+    return users.find(user => user.userId === userId)
+}
+io.on('connection', (socket)=>{
     console.log("conneted");
-    socket.on('loggedin', function(user) {
-        clientSocketIds.push({socket: socket, us})
+    // io.emit('welcome', "hello this is socket");
+    socket.on("addUser", userId=>{
+        addUser(userId, socket.id);
+        io.emit("getUsers", users);
+    })
+    //send and get message
+    socket.on("sendMessage", ({senderId, receiverId, text}) => {
+        const user = getUser(receiverId);
+        io.to(user.socketId).emit("getMessage", {
+            senderId,
+            text,
+        })
+    })
+    //disconnect
+    socket.on("disconnect", ()=>{
+        console.log("a user disconnected");
+        removeUser(socket.id);
+        io.emit("getUsers", users);
     })
 });
+
 
 //adding static files
 app.use('/users',express.static(static_path));
@@ -96,7 +109,7 @@ app.use('/api/coversations', require('./routes/conversations.js'))
 
 // create a new user in our databse
 app.post("/api/register", async (req, res) => {
-    console.log(req.body);
+    // console.log(req.body);
     // res.json({status: 'ok'})
     try{
         const username = req.body.username;
@@ -107,12 +120,12 @@ app.post("/api/register", async (req, res) => {
                 password: password
         });
         bcrypt.genSalt(10, (err, salt) => {
-            console.log('is it');
+            // console.log('is it');
             bcrypt.hash(registerUser.password, salt, (err, hash) => {
                 if(err) throw err;
                 //set password to hash
                 registerUser.password = hash;
-                console.log(hash);
+                // console.log(hash);
                 registerUser.save()
                     .then((user) => {
                         // req.flash('success_msg', 'you are now registered')
@@ -134,7 +147,7 @@ app.get("/api/users/:userid", async (req, res) => {
     try{
         console.log('trying to get user ifo', req.params.userid)
         const user = await User.findOne({
-            id: req.params.userid,
+            _id: req.params.userid,
         });
         res.status(200).json(user);
     }catch(err){
@@ -145,4 +158,4 @@ app.get("/api/users/:userid", async (req, res) => {
 const PORT = process.env.PORT || 5000;
 
 //the server is started and listening
-app.listen(PORT, console.log(`server started on port ${PORT}`))
+server.listen(PORT, console.log(`server started on port ${PORT}`))

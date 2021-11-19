@@ -4,6 +4,15 @@
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
 
 </head>
+{{#each names }}
+<div class="block">
+  <div class="details">
+    <div id={{this.id}} class="listhead">
+      <h4>{{this.username}}</h4>
+    </div>
+  </div>
+</div>
+{{/each}}
 
 <body style="margin: auto 200px 20vw auto">
   <div class="c27">
