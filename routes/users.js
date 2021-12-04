@@ -44,6 +44,6 @@ router.get('/:id', ensureAuthenticated, (req, res) =>{
 })
 router.get('logout', (req, res)=>{
     req.logout();
-    res.redirect('index');
+    res.redirect('/');
 })
 module.exports = router;

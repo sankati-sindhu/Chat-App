@@ -11,6 +11,9 @@ const MessageSchema = new mongoose.Schema(
         text: {
             type:String,
         },
+        msg: {
+            type:String,
+        }
     },
     { timestamps: true }
 );

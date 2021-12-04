@@ -18,7 +18,7 @@
           <p style="font-size: medium; color:brown" class="userid" id={{user.id}}>{{ user.username }} </p>
 
         </div>
-        <form id="add-form" action="/users/:username" method="POST">
+        <form id="add-form" method="POST">
 
           <ul class="nav_icons">
 
@@ -82,6 +82,7 @@
     </div>
 
     <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsencrypt/3.2.1/jsencrypt.js "></script>
 
     <script type="text/javascript" src="js/chat.js"></script>
 

@@ -16,246 +16,505 @@
     }
 </style>
 
-<body style="background-color:beige;">
+<body style="background-color:rgb(247, 247, 243);">
 
     <div class="content">
+
         <div class="c27">
-            <p class="c11"><span class="c32">CRYPTOGRAPHY PROJECT:</span></p>
-            <p class="c11"><span class="c32">RSA LITE PROJECT REPORT</span></p>
-            <p class="c11 c10"><span class="c25"></span></p>
-            <h1 class="c3 c5" id="h.5dbo5py6wpug"><span
-                    class="c30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            </h1>
-            <p class="c3 c10"><span class="c13"></span></p>
-            <hr style="page-break-before:always;display:none;">
-            <p class="c3 c10"><span class="c17 c36 c42"></span></p>
-            <h1 class="c3 c5" id="h.7xm85wx859ql"><span class="c30">Table of Contents:</span></h1>
-            <p class="c41"><span class="c7"><a class="c19" href="#h.7xm85wx859ql">Table of Contents:</a></span></p>
-            <p class="c39"><span class="c7"><a class="c19" href="#h.5sfse671s74j">I Introduction</a></span></p>
-            <p class="c16"><span class="c7"><a class="c19" href="#h.n04xycusutzl">1.1 PROBLEM STATEMENT</a></span></p>
-            <p class="c16"><span class="c7"><a class="c19" href="#h.ywvfok5y1daq">1.2 LITERATURE REVIEW</a></span></p>
-            <p class="c16"><span class="c7"><a class="c19" href="#h.ayaqmvwfh5qx">1.3 RSA ALGORITHM</a></span></p>
-            <p class="c39"><span class="c7"><a class="c19" href="#h.tge7iw5vil8f">II Deployment</a></span></p>
-            <p class="c16"><span class="c7"><a class="c19" href="#h.sxmm1qi3mlq6">2.1 TECH STACK USED</a></span></p>
-            <p class="c16"><span class="c7"><a class="c19" href="#h.ovark13e5h2i">2.2 DEVELOPMENT ENVIRONMENT</a></span>
+
+            <h1 class="c1" id="h.5dbo5py6wpug"><span class="c0">Repo link</span></h1>
+            <p class="c6"><span class="c7"><a class="c4"
+                        href="https://www.google.com/url?q=https://github.com/sankati-sindhu/crypto-proj&amp;sa=D&amp;source=editors&amp;ust=1637367481355000&amp;usg=AOvVaw3UKj6zUhRpQ_wu7wt-mrxR">https://github.com/sankati-sindhu/crypto-proj</a></span>
             </p>
-            <p class="c16"><span class="c7"><a class="c19" href="#h.r3iqj6biiaff">2.3 LOCAL SET UP</a></span></p>
-            <p class="c16"><span class="c7"><a class="c19" href="#h.fxrlsqb1v540">2.4 DATABASE SCHEMES</a></span></p>
-            <p class="c16"><span class="c7"><a class="c19" href="#h.ql2tdk8h23qe">2.5 FLOW DIAGRAMS</a></span></p>
-            <p class="c16"><span class="c7"><a class="c19" href="#h.4nr4yz6vb2lh">2.5 OUTPUTS</a></span></p>
-            <p class="c39"><span class="c7"><a class="c19" href="#h.x7bjtw146kf1">III Conclusions</a></span></p>
-            <p class="c38"><span class="c7"><a class="c19" href="#h.7fubjx4ycc4k">IV References :</a></span></p>
-            <p class="c3 c10"><span class="c2"></span></p>
-            <h1 class="c3 c5 c43" id="h.1tswdrx0p86h"><span class="c30"></span></h1>
-            <h1 class="c3 c5" id="h.5sfse671s74j"><span class="c30">I Introduction</span></h1>
-            <h2 class="c3 c5" id="h.n04xycusutzl"><span>1.1 </span><span>PROBLEM STATEMENT</span></h2>
-            <p class="c3"><span class="c2">To develop a simplified RSA clone with minimized rounds and key size where
+            <p class="c6"><span class="c69">(Note: You can set up the local environment need to run the application, by
+                    looking
+                    through sections 2.3 and 2.4)</span></p>
+            <h1 class="c1 c30" id="h.7xm85wx859ql"><span class="c0"></span></h1>
+            <h1 class="c1" id="h.9f8zv2nddlk0"><span class="c0">Table of Contents</span></h1>
+            <p class="c6 c9"><span class="c2"></span></p>
+
+            <p class="c13"><span class="c27"><a class="c4" href="#h.5sfse671s74j">I Introduction</a></span><span
+                    class="c27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="c27"><a class="c4"
+                        href="#h.5sfse671s74j">5</a></span></p>
+            <p class="c21"><span class="c8"><a class="c4" href="#h.n04xycusutzl">1.1 Problem Statement</a></span><span
+                    class="c8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="c8"><a class="c4"
+                        href="#h.n04xycusutzl">5</a></span></p>
+            <p class="c21"><span class="c2"><a class="c4" href="#h.ywvfok5y1daq">1.2 Literature Review</a></span><span
+                    class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="c2"><a class="c4"
+                        href="#h.ywvfok5y1daq">5</a></span></p>
+            <p class="c21"><span class="c2"><a class="c4" href="#h.ayaqmvwfh5qx">1.3 Rsa Algorithm</a></span><span
+                    class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="c2"><a class="c4"
+                        href="#h.ayaqmvwfh5qx">5</a></span></p>
+            <p class="c13"><span class="c19"><a class="c4" href="#h.meeftgfevmmb">II Deployment</a></span><span
+                    class="c19">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="c19"><a class="c4"
+                        href="#h.meeftgfevmmb">8</a></span></p>
+            <p class="c21"><span class="c2"><a class="c4" href="#h.x5hzpwgq3hai">2.1 Application
+                        Description:</a></span><span
+                    class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="c2"><a class="c4"
+                        href="#h.x5hzpwgq3hai">8</a></span></p>
+            <p class="c21"><span class="c8"><a class="c4" href="#h.sxmm1qi3mlq6">2.2 Tech Stack Used</a></span><span
+                    class="c8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="c8"><a class="c4"
+                        href="#h.sxmm1qi3mlq6">8</a></span></p>
+            <p class="c21"><span class="c8"><a class="c4" href="#h.ovark13e5h2i">2.3 Development
+                        Environment</a></span><span
+                    class="c8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="c8"><a class="c4"
+                        href="#h.ovark13e5h2i">8</a></span></p>
+            <p class="c21"><span class="c8"><a class="c4" href="#h.r3iqj6biiaff">2.4 Local Set Up</a></span><span
+                    class="c8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="c8"><a class="c4"
+                        href="#h.r3iqj6biiaff">9</a></span></p>
+            <p class="c21"><span class="c2"><a class="c4" href="#h.wkjga5os2ayw">2.5 Database</a></span><span
+                    class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="c2"><a class="c4"
+                        href="#h.wkjga5os2ayw">10</a></span></p>
+            <p class="c21"><span class="c8"><a class="c4" href="#h.ql2tdk8h23qe">2.6 Flow Diagrams</a></span><span
+                    class="c8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="c8"><a class="c4"
+                        href="#h.ql2tdk8h23qe">11</a></span></p>
+            <p class="c21"><span class="c2"><a class="c4" href="#h.so5zn5w3v05s">2.7 Outputs Screen</a></span><span
+                    class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="c2"><a class="c4"
+                        href="#h.so5zn5w3v05s">12</a></span></p>
+            <p class="c13"><span class="c27"><a class="c4" href="#h.x7bjtw146kf1">III Conclusions</a></span><span
+                    class="c27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="c27"><a class="c4"
+                        href="#h.x7bjtw146kf1">15</a></span></p>
+            <p class="c67"><span class="c19"><a class="c4" href="#h.fodyxl1ohx9v">IV References :</a></span><span
+                    class="c19">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="c19"><a class="c4"
+                        href="#h.fodyxl1ohx9v">15</a></span></p>
+            <p class="c6 c9"><span class="c2"></span></p>
+            <p class="c6 c9"><span class="c2"></span></p>
+            <h1 class="c1" id="h.5sfse671s74j"><span class="c0">I Introduction</span></h1>
+            <h2 class="c1" id="h.n04xycusutzl"><span>1.1 Problem Statement</span></h2>
+            <p class="c6"><span class="c2">To develop a simplified RSA clone with minimized rounds and key size where
                     the
                     developed model could be used in real time applications . Hence we created a real time web chat with
                     rsa
                     encryption .</span></p>
-            <p class="c3 c10"><span class="c14"></span></p>
-            <h2 class="c3 c5" id="h.ywvfok5y1daq"><span>1.2 LITERATURE REVIEW </span></h2>
-            <p class="c3"><span>Cryptography is the study of techniques that are used to secure a communication. The RSA
-                    algorithm
-                    is one of the most efficient public key cryptosystems. It is an asymmetric algorithm involving both
-                    public
-                    and
+            <p class="c6 c9"><span class="c2"></span></p>
+            <p class="c6"><span class="c2">Note: The chat application we named is named as RSALte, so anywhere in this
+                    document
+                    if refer to application, RSALte, or chat application, or website all refer to the application we
+                    developed.
+                </span></p>
+            <p class="c6 c9"><span class="c8"></span></p>
+            <h2 class="c1" id="h.ywvfok5y1daq"><span>1.2 Literature Review </span></h2>
+            <p class="c6"><span class="c38">Cryptography is the study of techniques that are used to secure a
+                    communication.</span><span class="c38 c58">&nbsp;It allows only the sender and intended recipient of
+                    a
+                    message to view its contents. Here, data is encrypted using a secret key, and then both the encoded
+                    message
+                    and secret key are sent to the recipient for decryption.</span><span class="c38">&nbsp;The RSA
+                    algorithm is
+                    one of the most efficient public key cryptosystems. It is an asymmetric algorithm involving both
+                    public and
                     private keys for encryption and decryption respectively . Concepts used here are keys , plain text ,
                     cipher
-                    text
-                    ,
-                    encryption and decryption. In a research paper they concluded that AES algorithm is better among
-                    Symmetric
-                    algorithms and RSA algorithm is found as better solution in asymmetric encryption technique .
+                    text , encryption and decryption. In a research paper they concluded that AES algorithm is better
+                    among
+                    Symmetric algorithms and RSA algorithm is found as better solution in asymmetric encryption
+                    technique .
                 </span></p>
-            <p class="c3 c10"><span class="c4"></span></p>
-            <h2 class="c3 c5" id="h.ayaqmvwfh5qx"><span>1.3 RSA ALGORITHM </span></h2>
-            <p class="c3"><span class="c14">RSA is one of the oldest algorithms and is a public key cryptosystem that is
+            <p class="c6 c9"><span class="c23"></span></p>
+            <h2 class="c1" id="h.ayaqmvwfh5qx"><span>1.3 Rsa Algorithm </span></h2>
+            <p class="c6"><span class="c22">RSA is one of the oldest algorithms and is a public key cryptosystem that is
                     used to
                     secure data transmission . The expansion of RSA is Rivest-Shamir-Adleman which is derived from the
                     surnames
-                    of
-                    its
-                    designers Ron Rivest , &nbsp;Adi Shamir and Leonard Adleman who published it in 1997. RSA is an
-                    asymmetric
-                    cryptography algorithm / public key encryption algorithm hence it actually works on both public key
-                    (given
-                    to
-                    everyone/all the receivers) and private key (is only with the owner/sender). Here public key is used
-                    for
-                    encryption and private key is used for decryption .</span></p>
-            <p class="c3 c10"><span class="c14"></span></p>
-            <p class="c3"><span class="c31">The steps involved in the RSA algorithm are as follows :</span></p>
-            <p class="c3 c10"><span class="c14"></span></p>
-            <p class="c3"><span class="c12">STEP - 1 :</span></p>
-            <p class="c3"><span>Firstly let us consider any two large prime numbers </span><span
-                    class="c36">&lsquo;p&rsquo;</span><span>&nbsp;and</span><span class="c8">&nbsp;&lsquo;q&rsquo;
+                    of its designers Ron Rivest , &nbsp;Adi Shamir and Leonard Adleman who published it in 1997. RSA is
+                    an
+                    asymmetric cryptography algorithm / public key encryption algorithm hence it actually works on both
+                    public
+                    key (given to everyone/all the receivers) and private key (is only with the owner/sender). Here
+                    public key
+                    is used for encryption and private key is used for decryption .</span><span class="c8">RSA algorithm
+                    is a
+                    popular exponentiation in a finite field over integers including prime numbers. The integers used by
+                    this
+                    method are sufficiently large making it difficult to solve. There are two sets of keys in this
+                    algorithm:
+                    private key and public key.</span></p>
+            <p class="c6 c9"><span class="c8"></span></p>
+            <p class="c6 c9"><span class="c8"></span></p>
+            <p class="c6"><span class="c27">The steps involved in the RSA algorithm are as follows :</span></p>
+            <p class="c6 c9"><span class="c8"></span></p>
+            <p class="c6"><span class="c54 c48 c71">STEP - 1 :</span></p>
+            <p class="c6"><span>Firstly let us consider any two large prime numbers </span><span
+                    class="c48">&lsquo;p&rsquo;</span><span>&nbsp;and</span><span class="c19">&nbsp;&lsquo;q&rsquo;
                     .</span></p>
-            <p class="c3 c10"><span class="c14"></span></p>
-            <p class="c3"><span class="c12">STEP - 2 :</span></p>
-            <p class="c3"><span class="c29">Now we shall multiply both the prime numbers and the product will be
-                    &lsquo;</span><span class="c1">n</span><span class="c14">&rsquo; and is called as the modulus for
+            <p class="c6 c9"><span class="c8"></span></p>
+            <p class="c6"><span class="c71 c54 c48">STEP - 2 :</span></p>
+            <p class="c6"><span class="c22">Now we shall multiply both the prime numbers and the product will be
+                    &lsquo;</span><span class="c24">n</span><span class="c8">&rsquo; and is called as the modulus for
                     encryption
-                    and
-                    decryption .</span></p><a id="t.74d6b3489bee8590e8f3319aae2f374cfb25f1e1"></a><a id="t.0"></a>
-            <table class="c6">
+                    and decryption .</span></p><a id="t.74d6b3489bee8590e8f3319aae2f374cfb25f1e1"></a><a id="t.0"></a>
+            <table class="c47">
                 <tbody>
-                    <tr class="c21">
-                        <td class="c9" colspan="1" rowspan="1">
-                            <p class="c24"><span class="c28">n=p*q</span></p>
+                    <tr class="c35">
+                        <td class="c26" colspan="1" rowspan="1">
+                            <p class="c16"><span class="c31">n=p*q</span></p>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            <p class="c3 c10"><span class="c14"></span></p>
-            <p class="c3"><span class="c18">STEP - 3 :</span></p>
-            <p class="c3"><span class="c29">We shall calculate the value of </span><span class="c1">&psi;(n)</span><span
-                    class="c14">.</span></p><a id="t.120f0a761d97fdcdf791c1ae861df2eb895de524"></a><a id="t.1"></a>
-            <table class="c6">
+            <p class="c6 c9"><span class="c8"></span></p>
+            <p class="c6"><span class="c54 c48">STEP - 3 :</span></p>
+            <p class="c6"><span class="c22">We shall calculate the value of </span><span
+                    class="c24">&psi;(n)</span><span class="c8">.</span></p><a
+                id="t.120f0a761d97fdcdf791c1ae861df2eb895de524"></a><a id="t.1"></a>
+            <table class="c47">
                 <tbody>
-                    <tr class="c21">
-                        <td class="c9" colspan="1" rowspan="1">
-                            <p class="c24"><span class="c23">&#x1d753;(n)=(p-1)*(q-1)<br></span><span
-                                    class="c22 c45"><br>[&#8757;&#x1d753;(n)=&#x1d753;(p)*&#x1d753;(q)<br>here ,
-                                    &#x1d753;(p)=p-1 and
-                                    &nbsp;&#x1d753;(q)=q-1<br>because both p and q are prime numbers]</span></p>
+                    <tr class="c35">
+                        <td class="c26" colspan="1" rowspan="1">
+                            <p class="c16"><span class="c50 c48">&#x1d753;(n)=(p-1)*(q-1)<br></span><span
+                                    class="c57 c50 c61"><br>[&#8757;&#x1d753;(n)=&#x1d753;(p)*&#x1d753;(q)<br>here ,
+                                    &#x1d753;(p)=p-1 and &nbsp;&#x1d753;(q)=q-1<br>because both p and q are prime
+                                    numbers]</span></p>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            <p class="c3 c10"><span class="c14"></span></p>
-            <p class="c3 c10"><span class="c14"></span></p>
-            <p class="c3"><span class="c18">STEP - 4 :</span></p>
-            <p class="c3"><span class="c29">Now we will assume a &lsquo;</span><span class="c1">e</span><span
-                    class="c14">&rsquo;
+            <p class="c6 c9"><span class="c8"></span></p>
+            <p class="c6 c9"><span class="c8"></span></p>
+            <p class="c6"><span class="c54 c48">STEP - 4 :</span></p>
+            <p class="c6"><span class="c22">Now we will assume a &lsquo;</span><span class="c24">e</span><span
+                    class="c8">&rsquo;
                     such that </span></p><a id="t.f6ab3f1493955ff9d2680154f938a68a940c83fa"></a><a id="t.2"></a>
-            <table class="c6">
+            <table class="c47">
                 <tbody>
-                    <tr class="c44">
-                        <td class="c9" colspan="1" rowspan="1">
-                            <p class="c24"><span class="c28">gcd(e,&#x1d753;(n))=</span><span class="c20">1</span></p>
+                    <tr class="c59">
+                        <td class="c26" colspan="1" rowspan="1">
+                            <p class="c16"><span class="c31">gcd(e,&#x1d753;(n))=</span><span class="c48 c62">1</span>
+                            </p>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            <p class="c11 c10"><span class="c14"></span></p>
-            <p class="c3 c10"><span class="c14"></span></p>
-            <p class="c3"><span class="c18">STEP - 5 :</span></p>
-            <p class="c3"><span class="c29">Next we will assume a &lsquo;</span><span class="c1">d</span><span
-                    class="c14">&rsquo;
+            <p class="c3"><span class="c8"></span></p>
+            <p class="c6 c9"><span class="c8"></span></p>
+            <p class="c6"><span class="c48 c54">STEP - 5 :</span></p>
+            <p class="c6"><span class="c22">Next we will assume a &lsquo;</span><span class="c24">d</span><span
+                    class="c8">&rsquo;
                     such that</span></p>
-            <p class="c3 c10"><span class="c14"></span></p><a id="t.77cac3dd5794a6f28f4baa4735ba0125080ac3ab"></a><a
+            <p class="c6 c9"><span class="c8"></span></p><a id="t.77cac3dd5794a6f28f4baa4735ba0125080ac3ab"></a><a
                 id="t.3"></a>
-            <table class="c6">
+            <table class="c47">
                 <tbody>
-                    <tr class="c21">
-                        <td class="c9" colspan="1" rowspan="1">
-                            <p class="c24"><span class="c23">d*e mod &#x1d753;(n)=1<br></span><span
-                                    class="c22"><br>[&#8757;d
-                                    &asymp;
-                                    e^(-1)mod&#x1d753;(n)<br>d*e=1mod&#x1d753;(n)<br>d*e mod&#x1d753;(n) = 1
-                                    mod&#x1d753;(n)<br>&rArr; d*e
-                                    mod
-                                    &#x1d753;(n)=1]</span></p>
+                    <tr class="c35">
+                        <td class="c26" colspan="1" rowspan="1">
+                            <p class="c16"><span class="c50 c48">d*e mod &#x1d753;(n)=1<br></span><span
+                                    class="c50 c61"><br>[&#8757;d &asymp;
+                                    e^(-1)mod&#x1d753;(n)<br>d*e=1mod&#x1d753;(n)<br>d*e
+                                    mod&#x1d753;(n) = 1 mod&#x1d753;(n)<br>&rArr; d*e mod &#x1d753;(n)=1]</span></p>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            <p class="c3 c10"><span class="c14"></span></p>
-            <p class="c3"><span class="c18">STEP - 6 :</span></p>
-            <p class="c3"><span class="c14">Therefore the public key used for encryption and the private key used for
+            <p class="c6 c9"><span class="c8"></span></p>
+            <p class="c6"><span class="c54 c48">STEP - 6 :</span></p>
+            <p class="c6"><span class="c8">Therefore the public key used for encryption and the private key used for
                     decryption
                     are as follows :</span></p><a id="t.eddcdef9b41afc5dd0b1e78648a301a13b4e4258"></a><a id="t.4"></a>
-            <table class="c6">
+            <table class="c47">
                 <tbody>
-                    <tr class="c21">
-                        <td class="c9" colspan="1" rowspan="1">
-                            <p class="c24"><span class="c23">public key = {e,n}<br>private key = {d,n}</span></p>
+                    <tr class="c35">
+                        <td class="c26" colspan="1" rowspan="1">
+                            <p class="c16"><span class="c50 c48">public key = {e,n}<br>private key = {d,n}</span></p>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            <p class="c11 c10"><span class="c14"></span></p>
-            <p class="c10 c11"><span class="c14"></span></p>
-            <p class="c3"><span class="c18">STEP - 7 :</span></p>
-            <p class="c3"><span class="c29">Now &lsquo;</span><span class="c1">m</span><span class="c29">&rsquo; is the
+            <p class="c3"><span class="c8"></span></p>
+            <p class="c3"><span class="c8"></span></p>
+            <p class="c6"><span class="c54 c48">STEP - 7 :</span></p>
+            <p class="c6"><span class="c22">Now &lsquo;</span><span class="c24">m</span><span class="c22">&rsquo; is the
                     plain
-                    text
-                    message and &lsquo;</span><span class="c1">c</span><span class="c14">&rsquo; is the cipher text
+                    text message and &lsquo;</span><span class="c24">c</span><span class="c8">&rsquo; is the cipher text
                     message
-                    .</span>
-            </p>
-            <p class="c3"><span class="c14">Here m must be less than n and the following formulas are used to encrypt
-                    the plain
+                    .</span></p>
+            <p class="c6"><span class="c8">Here m must be less than n and the following formulas are used to encrypt the
+                    plain
                     text to get the cipher text and decrypt the cipher text to get the plain text .</span></p><a
                 id="t.403f9052b7a2382344e1999179877c7075bbf929"></a><a id="t.5"></a>
-            <table class="c6">
+            <table class="c47">
                 <tbody>
-                    <tr class="c21">
-                        <td class="c9" colspan="1" rowspan="1">
-                            <p class="c24"><span class="c23">m&lt;n<br>c=m^e mod n (encryption)<br>m=c^d mod n
+                    <tr class="c35">
+                        <td class="c26" colspan="1" rowspan="1">
+                            <p class="c16"><span class="c48 c50">m&lt;n<br>c=m^e mod n (encryption)<br>m=c^d mod n
                                     (decryption)</span></p>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            <p class="c11 c10"><span class="c26"></span></p>
-            <h1 class="c3 c43 c5" id="h.81phb1n5wdp7"><span class="c30"></span></h1>
-            <h1 class="c3 c5" id="h.tge7iw5vil8f"><span>II </span><span class="c30">Deployment </span></h1>
-            <h2 class="c3 c5" id="h.sxmm1qi3mlq6"><span class="c4">2.1 TECH STACK USED</span></h2>
-            <p class="c3"><span class="c2">The frameworks and technologies we used for implementing our project
+            <p class="c3"><span class="c48 c49"></span></p>
+            <h1 class="c1 c30" id="h.81phb1n5wdp7"><span class="c0"></span></h1>
+            <h1 class="c1" id="h.meeftgfevmmb"><span>II </span><span class="c0">Deployment </span></h1>
+            <h2 class="c1" id="h.x5hzpwgq3hai"><span class="c23">2.1 Application Description:</span></h2>
+            <p class="c6"><span class="c2">As described in section 1.1 we are implementing an RSA encryption algorithm
+                    in a real
+                    time chat application, which we named as RSALte. It is a web based application, where the user needs
+                    to
+                    signup to use the chat. Once the user logins, they will be taken to a chat page where they add and
+                    chat with
+                    other users of the application. All the chat messages will be encrypted and emitted using the RSA
+                    encryption
+                    algorithm as described in section 1.3. </span></p>
+            <p class="c6 c9"><span class="c2"></span></p>
+            <p class="c6"><span class="c2">The following sections will describe the development related information
+                    about
+                    RSALte.</span></p>
+            <p class="c6 c9"><span class="c2"></span></p>
+            <h2 class="c1" id="h.sxmm1qi3mlq6"><span class="c23">2.2 Tech Stack Used</span></h2>
+            <p class="c6"><span class="c2">The frameworks and technologies we used for implementing our project
                     were:</span></p>
-            <p class="c3"><span class="c36">&gt; Node.Js</span></p>
-            <p class="c3"><span class="c8">&gt; Express</span></p>
-            <p class="c3"><span class="c8">&gt; Socket.Io</span></p>
-            <p class="c3"><span class="c8">&gt; DCrypt</span></p>
-            <p class="c3"><span class="c8">&gt; MongoDb</span></p>
-            <p class="c3 c10"><span class="c8"></span></p>
-            <h2 class="c3 c5" id="h.ovark13e5h2i"><span class="c4">2.2 DEVELOPMENT ENVIRONMENT</span></h2>
-            <p class="c3 c10"><span class="c8"></span></p>
-            <h2 class="c3 c5" id="h.r3iqj6biiaff"><span class="c4">2.3 LOCAL SET UP</span></h2>
-            <p class="c3 c10"><span class="c2"></span></p>
-            <h2 class="c3 c5" id="h.fxrlsqb1v540"><span class="c4">2.4 DATABASE SCHEMES</span></h2>
-            <p class="c3 c10"><span class="c2"></span></p>
-            <h2 class="c3 c5" id="h.ql2tdk8h23qe"><span class="c4">2.5 FLOW DIAGRAMS</span></h2>
-            <p class="c3 c10"><span class="c2"></span></p>
-            <h2 class="c3 c5" id="h.4nr4yz6vb2lh"><span class="c4">2.5 OUTPUTS</span></h2>
-            <p class="c3 c10"><span class="c2"></span></p>
-            <h1 class="c3 c5" id="h.x7bjtw146kf1"><span>III </span><span class="c30">Conclusions </span></h1>
-            <p class="c3"><span class="c29">In this project we created a real time web chat with rsa encryption . The
+            <p class="c6"><span class="c19">&gt; Node.Js (Version 17.0.1)</span></p>
+            <p class="c6"><span class="c19">&gt; package manager used: npm (version 8.1.0)</span></p>
+            <p class="c6"><span class="c19">&gt; Express (version 4.17.1)</span></p>
+            <p class="c6"><span class="c19">&gt; View engine used in Express is (version 4.17.1)</span></p>
+            <p class="c6"><span class="c19">&gt; Socket.Io (version 4.3.2)</span></p>
+            <p class="c6"><span class="c19">&gt; bCrypt (version 2.4.3)</span></p>
+            <p class="c6"><span class="c19">&gt; MongoDb (Mongoose version 6.0.12)</span></p>
+            <p class="c6"><span class="c19">&gt; Version control used: Git (version 2.31.0)</span></p>
+            <p class="c6"><span class="c19">&gt; Moment (version 2.29.1)</span></p>
+            <p class="c6 c9"><span class="c19"></span></p>
+            <h2 class="c1" id="h.ovark13e5h2i"><span>2.3 Development Environment</span></h2>
+            <p class="c6"><span class="c2">For setting up the project source code in the local environment you would
+                    need the
+                    following stuff installed in your local systems.</span></p>
+            <ol class="c70 lst-kix_gs4at0d0tu87-0 start" start="1">
+                <li class="c6 c33 li-bullet-0"><span>NPM package manager, which can be installed in </span><span
+                        class="c61 c74">&nbsp;</span><span class="c18"><a class="c4"
+                            href="https://www.google.com/url?q=https://nodejs.org/en/download/&amp;sa=D&amp;source=editors&amp;ust=1637367481377000&amp;usg=AOvVaw3DWIBnIKD5EA2pbAd2h_rB">https://nodejs.org/en/download/</a></span><span>&nbsp;</span><span>If
+                        you are on macOS, and have homebrew (</span><span class="c7"><a class="c4"
+                            href="https://www.google.com/url?q=https://brew.sh/&amp;sa=D&amp;source=editors&amp;ust=1637367481377000&amp;usg=AOvVaw0La_kSt5iq3RaVS-3ILuLa">https://brew.sh/</a></span><span
+                        class="c2">) you can install in by running the following:</span></li>
+            </ol><a id="t.2010c8fe23c461f09c34c8a8b15437685eecdf65"></a><a id="t.6"></a>
+            <table class="c47">
+                <tbody>
+                    <tr class="c35">
+                        <td class="c26" colspan="1" rowspan="1">
+                            <p class="c28 c53"><span class="c46">brew install npm</span></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <ol class="c70 lst-kix_gs4at0d0tu87-0" start="2">
+                <li class="c6 c33 li-bullet-0"><span class="c2">For testing purposes, you need to have a browser.
+                        (preferable
+                        google chrome/ brave) since the code hasn&rsquo;t been tested in other browsers.</span></li>
+                <li class="c6 c33 li-bullet-0"><span>MongoDb installed locally or A database in atlas (</span><span
+                        class="c7"><a class="c4"
+                            href="https://www.google.com/url?q=https://www.mongodb.com/atlas/database&amp;sa=D&amp;source=editors&amp;ust=1637367481379000&amp;usg=AOvVaw3HVzMkYyZ4CPhUcOukfb0N">https://www.mongodb.com/atlas/database</a></span><span
+                        class="c2">)</span></li>
+                <li class="c6 c33 li-bullet-0"><span class="c2">[optional] version control git
+                        (https://git-scm.com/downloads)</span></li>
+            </ol>
+            <p class="c6 c9"><span class="c2"></span></p>
+            <h2 class="c1" id="h.r3iqj6biiaff"><span>2.4 Local Set Up</span></h2>
+            <p class="c6"><span class="c2">After you fulfill the requirements described in section 2.2, you can follow
+                    the
+                    following steps to get the server up and running in the local system...</span></p>
+            <p class="c6 c9"><span class="c10"></span></p>
+            <p class="c6"><span class="c36">Step &nbsp;1:</span></p>
+            <p class="c6"><span>Download the zip folder from the following </span><span class="c7"><a class="c4"
+                        href="https://www.google.com/url?q=https://github.com/sankati-sindhu/crypto-proj&amp;sa=D&amp;source=editors&amp;ust=1637367481380000&amp;usg=AOvVaw3YvRPWRBEhL0XPH_QhCRkF">https://github.com/sankati-sindhu/crypto-proj</a></span><span
+                    class="c2">&nbsp;repository and unzip/extract the files </span></p>
+            <p class="c6"><span class="c2">or,</span></p>
+            <p class="c6"><span class="c2">run if you have git, you can simile run the following command:</span></p><a
+                id="t.83209fe394eb3f1d0dbe9bf6909bcc4b9a818e91"></a><a id="t.7"></a>
+            <table class="c47">
+                <tbody>
+                    <tr class="c35">
+                        <td class="c26" colspan="1" rowspan="1">
+                            <p class="c28"><span class="c46">git </span><span class="c34">clone</span><span
+                                    class="c46">&nbsp;sankati-sindhu/crypto-proj &lt;path&gt;</span></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="c6 c9"><span class="c37"></span></p>
+            <p class="c6"><span class="c44">Step &nbsp;2:</span></p>
+            <p class="c6"><span class="c2">After cloning the repository, you should have the following directories in
+                    it</span>
+            </p>
+            <p class="c6"><span class="c2">.</span></p>
+            <p class="c6"><span class="c2">&#9500;&#9472;&#9472; config</span></p>
+            <p class="c6"><span class="c2">&#9500;&#9472;&#9472; crypto-util</span></p>
+            <p class="c6"><span class="c2">&#9500;&#9472;&#9472; models</span></p>
+            <p class="c6"><span class="c2">&#9500;&#9472;&#9472; public</span></p>
+            <p class="c6"><span class="c2">&#9474; &nbsp; &#9500;&#9472;&#9472; css</span></p>
+            <p class="c6"><span class="c2">&#9474; &nbsp; &#9500;&#9472;&#9472; img</span></p>
+            <p class="c6"><span class="c2">&#9474; &nbsp; &#9500;&#9472;&#9472; js</span></p>
+            <p class="c6"><span class="c2">&#9492;&#9472;&#9472; templates</span></p>
+            <p class="c6"><span class="c2">&nbsp; &nbsp; &#9500;&#9472;&#9472; partials</span></p>
+            <p class="c6"><span class="c2">&nbsp; &nbsp; &#9492;&#9472;&#9472; views</span></p>
+            <p class="c6"><span class="c2">&#9500;&#9472;&#9472; package-lock.json</span></p>
+            <p class="c6"><span class="c2">&#9500;&#9472;&#9472; package.json</span></p>
+            <p class="c6"><span class="c2">&#9500;&#9472;&#9472; app.js</span></p>
+            <p class="c6 c9"><span class="c10"></span></p>
+            <p class="c6"><span class="c44">Step &nbsp;3:</span></p>
+            <p class="c6"><span class="c2">Navigate to the path where you clone the repository and install the required
+                    packages</span></p>
+            <p class="c6"><span class="c34">cd</span><span class="c57 c46">&nbsp;&lt;path&gt;</span></p>
+            <p class="c6"><span class="c46 c57">npm install</span></p>
+            <p class="c6 c9"><span class="c37"></span></p>
+            <p class="c6"><span class="c44">Step &nbsp;4:</span></p>
+            <p class="c6"><span>After</span><span class="c2">&nbsp;installing all the required packages without errors,
+                    go to
+                    the config directory you will find there key.js file, in which the following code would be there,
+                    replace
+                    &lt;key&gt; with the mongo database key. </span></p><a
+                id="t.2eb4d158b720b0c97d5b341576821fbd3ba98169"></a><a id="t.8"></a>
+            <table class="c47">
+                <tbody>
+                    <tr class="c35">
+                        <td class="c26" colspan="1" rowspan="1">
+                            <p class="c28"><span class="c46">module.exports={<br> &nbsp;
+                                    &nbsp;MongoURI:&lt;key&gt;<br>}</span>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="c6"><span class="c2">This can either be the atlas database key or local database key. </span></p>
+            <p class="c6 c9"><span class="c10"></span></p>
+            <p class="c6"><span class="c44">Step &nbsp;5:</span></p>
+            <p class="c6"><span class="c2">start the server by running the following command:</span></p><a
+                id="t.f0ef7e93a0b1bd2795d879a3a702aeb0592b2bc3"></a><a id="t.9"></a>
+            <table class="c47">
+                <tbody>
+                    <tr class="c35">
+                        <td class="c26" colspan="1" rowspan="1">
+                            <p class="c28"><span class="c46">npm run start</span></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 class="c1 c29" id="h.fxrlsqb1v540"><span class="c23"></span></h2>
+            <h2 class="c1" id="h.wkjga5os2ayw"><span>2.5 Database </span></h2>
+            <p class="c6"><span class="c2">The database used for the project is mongoDb, which is NOSQL and is document
+                    based.
+                    We used NOSQL over SQL, due to the advantage of having the flexibility to change the schema during
+                    production. The basic schema of the database is shown below.</span></p>
+            <p class="c6"><span class="c2">Usesrs &gt; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ id</span>
+            </p>
+            <p class="c6"><span class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|___ private key</span></p>
+            <p class="c6"><span class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|___ public key</span></p>
+            <p class="c6"><span class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|___
+                    username<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|___ password</span></p>
+            </p>
+            </p>
+            <p class="c6"><span class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|___ Messages</span></p>
+            <p class="c6"><span class="c2">Message &gt;</span></p>
+            <p class="c6"><span class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|___ key</span></p>
+            <p class="c6"><span class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|___ message</span></p>
+            <p class="c6"><span class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|___ time</span></p>
+            <p class="c6 c9"><span class="c2"></span></p>
+            <h2 class="c1" id="h.ql2tdk8h23qe"><span>2.6 Flow Diagrams</span></h2>
+            <p class="c6"><span class="c2">In this section we describe the flow of the website, the messages etc.</span>
+            </p>
+            <p class="c6 c9"><span class="c2"></span></p>
+            <p class="c6"><span class="c48">Figure :1</span></p>
+            <p class="c6"><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 125.33px;"><img
+                        alt="" src="images/image5.png"
+                        style="width: 624.00px; height: 125.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c6"><span class="c2">For a user to communicate with another user, they first need to exchange keys
+                    like
+                    shown in figure 1. In our application this exchange of keys happens, when the user sends a request
+                    and it
+                    gets accepted at the other user&#39;s end. Each user will store other users&#39; public keys.
+                </span></p>
+            <p class="c6 c9"><span class="c19"></span></p>
+            <p class="c6"><span class="c19">Figure :2</span></p>
+            <p class="c6"><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 97.33px;"><img
+                        alt="" src="images/image1.png"
+                        style="width: 624.00px; height: 97.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c6"><span class="c2">What the diagram is demonstrating is the end to end encryption provided by
+                    the RSA
+                    algorithm. Let&#39;s say user 1 wants to send a message to user 2.( Assume that they exchanged their
+                    public
+                    keys). User 1 encrypts the message with the public of user 2 using the RSA algorithm, giving us a
+                    cipher
+                    This cipher is emitted to the server, the server emits back to the desired client, in this case user
+                    2. In
+                    the user&#39;s two ends, the message is decrypted using the private key of itself. </span></p>
+            <p class="c6 c9"><span class="c2"></span></p>
+            <p class="c6"><span class="c19">Figure :3</span></p>
+            <p class="c6"><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 493.50px; height: 264.91px;"><img
+                        alt="" src="images/image4.png"
+                        style="width: 493.50px; height: 264.91px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c6"><span>Figure 3 describes the page flow of the website, it totally has three pages, login,
+                    singup, and
+                    chat. There is an additional page, called index, which contains the report of the project, but is
+                    not a part
+                    of the application. </span></p>
+            <h2 class="c1 c29" id="h.inoyfdnhu99f"><span class="c23"></span></h2>
+            <h2 class="c1" id="h.so5zn5w3v05s"><span class="c23">2.7 Outputs Screen </span></h2>
+            <p class="c6"><span class="c2">These section contains the main output screens from the project </span></p>
+            <p class="c6"><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 357.33px;"><img
+                        alt="" src="images/image2.png"
+                        style="width: 624.00px; height: 357.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c6 c9"><span class="c2"></span></p>
+            <p class="c6"><span class="c2">Login page for the exiting users to open their account and to proceed their
+                    conversation. To login we ask the user for the information of their username and the password that
+                    is
+                    set.</span></p>
+            <p class="c6 c9"><span class="c2"></span></p>
+            <p class="c6"><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 366.67px;"><img
+                        alt="" src="images/image7.png"
+                        style="width: 624.00px; height: 366.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c6"><span class="c2">Sign up page for the users to start their communication by registering them
+                    into this
+                    website. It only asks for username from the user and sets a new password.</span></p>
+            <p class="c6 c9"><span class="c2"></span></p>
+            <p class="c6"><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 380.00px;"><img
+                        alt="" src="images/image6.png"
+                        style="width: 624.00px; height: 380.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c6 c9"><span class="c2"></span></p>
+            <p class="c6"><span class="c2">This is the UI of how their chat looks like. We can add / reject
+                    contacts(people) ,
+                    the accepted contacts will be displayed in the chat and we can start our conversation anytime. The
+                    text will
+                    be end to end encrypted using the RSA algorithm.</span></p>
+            <p class="c6 c9"><span class="c2"></span></p>
+            <h1 class="c1" id="h.x7bjtw146kf1"><span>III </span><span class="c0">Conclusions </span></h1>
+            <p class="c6"><span class="c22">In this project we created a real time web chat with rsa encryption . The
                     RSA
                     algorithm is one of the most efficient algorithms as it provides many features . The RSA algorithm
                     is
                     comparatively faster than few other encryption and decryption algorithms . The RSA algorithm is
                     highly
-                    secured
-                    as
-                    well as easy to understand . While working on this project we understood how to implement the RSA
-                    algorithm
-                    and
-                    our knowledge in web designing also got better .</span></p>
-            <p class="c3 c10"><span class="c2"></span></p>
-            <h1 class="c3 c5" id="h.7fubjx4ycc4k"><span class="c30">IV References :</span></h1>
-            <p class="c3 c10"><span class="c2"></span></p>
-            <p class="c3"><span class="c34"><a class="c19"
-                        href="https://www.google.com/url?q=https://nodejs.org/en/about/&amp;sa=D&amp;source=editors&amp;ust=1637064805781000&amp;usg=AOvVaw2JhLwT-kSfkeWMfIvIjVJ7">https://nodejs.org/en/about/</a></span>
+                    secured as well as easy to understand . While working on this project we understood how to implement
+                    the RSA
+                    algorithm and our knowledge in web designing also got better .</span></p>
+            <p class="c6 c9"><span class="c2"></span></p>
+            <h1 class="c1 c30" id="h.kuf396yfge0i"><span class="c0"></span></h1>
+            <h1 class="c1" id="h.fodyxl1ohx9v"><span class="c0">IV References :</span></h1>
+            <p class="c6"><span class="c7"><a class="c4"
+                        href="https://www.google.com/url?q=https://github.com/triestpa/Open-Cryptochat&amp;sa=D&amp;source=editors&amp;ust=1637367481391000&amp;usg=AOvVaw2-06ip9h6KqZjs_EBS3KhN">https://github.com/triestpa/Open-Cryptochat</a></span>
             </p>
-            <p class="c3"><span class="c34"><a class="c19"
-                        href="https://www.google.com/url?q=http://expressjs.com/&amp;sa=D&amp;source=editors&amp;ust=1637064805782000&amp;usg=AOvVaw0uiAKYO387VcBDRz5ZgNZN">http://expressjs.com/</a></span>
+            <p class="c6"><span class="c2">https://gist.github.com/bradtraversy/f407d642bdc3b31681bc7e56d95485b6</span>
             </p>
-            <p class="c3"><span class="c34"><a class="c19"
-                        href="https://www.google.com/url?q=https://socket.io/&amp;sa=D&amp;source=editors&amp;ust=1637064805782000&amp;usg=AOvVaw31aSt2QJzL1ShAZDQEDZ1m">https://socket.io/</a></span>
+            <p class="c6"><span class="c2">https://nodejs.org/en/docs/</span></p>
+            <p class="c6"><span class="c2">https://expressjs.com/en/guide/routing.html</span></p>
+            <p class="c6"><span class="c7"><a class="c4"
+                        href="https://www.google.com/url?q=https://socket.io/docs/v3&amp;sa=D&amp;source=editors&amp;ust=1637367481392000&amp;usg=AOvVaw1Rk-Z1wH-SLnRnV62qeGZW">https://socket.io/docs/v3</a></span>
             </p>
-            <p class="c3"><span class="c34"><a class="c19"
-                        href="https://www.google.com/url?q=https://dcrypt.app/home&amp;sa=D&amp;source=editors&amp;ust=1637064805783000&amp;usg=AOvVaw1UY8EjUMaxmBJWRbUJCbj7">https://dcrypt.app/home</a></span>
+            <p class="c6"><span class="c2">https://docs.decrypt.co/</span></p>
+            <p class="c6"><span class="c7"><a class="c4"
+                        href="https://www.google.com/url?q=https://docs.mongodb.com/&amp;sa=D&amp;source=editors&amp;ust=1637367481392000&amp;usg=AOvVaw1x0kl9FiioSE7nZM-P5NC-">https://docs.mongodb.com/</a></span>
             </p>
-            <p class="c3"><span class="c34"><a class="c19"
-                        href="https://www.google.com/url?q=https://www.mongodb.com/&amp;sa=D&amp;source=editors&amp;ust=1637064805783000&amp;usg=AOvVaw1evg_6IgrOVQRlyJtpHfFx">https://www.mongodb.com/</a></span>
-            </p>
-            <p class="c3 c10"><span class="c2"></span></p>
+            <p class="c6"><span class="c2">https://momentjs.com/docs/</span></p>
+            <p class="c6 c9"><span class="c2"></span></p>
             <div>
-                <p class="c3 c10"><span class="c2"></span></p>
+                <p class="c3"><span class="c2"></span></p>
             </div>
         </div>
     </div>

@@ -1,643 +1,1618 @@
- @import url('https://themes.googleusercontent.com/fonts/css?kit=LludKuljlMT3jFKoCJBb3ZGXRELsXKhls461I330flumS0O3czPdV5LWwh8GKZnbsx98MisXMxOmsoHXXz3q0Qohwd-CPx7j7U14bhg9n-xObEwMfkc2gTBa4xwvlHyBnXfssYnrjwMfC6MrIbC0Q0hWudz06SrC6C6-ySthhPM');
-
- ol.lst-kix_2e48kp9015we-0.start {
-     counter-reset: lst-ctn-kix_2e48kp9015we-0 0
- }
-
- ol.lst-kix_2e48kp9015we-5.start {
-     counter-reset: lst-ctn-kix_2e48kp9015we-5 0
- }
-
- .lst-kix_2e48kp9015we-2>li {
-     counter-increment: lst-ctn-kix_2e48kp9015we-2
- }
-
- ol.lst-kix_2e48kp9015we-7.start {
-     counter-reset: lst-ctn-kix_2e48kp9015we-7 0
- }
-
- ol.lst-kix_2e48kp9015we-2.start {
-     counter-reset: lst-ctn-kix_2e48kp9015we-2 0
- }
-
- ol.lst-kix_2e48kp9015we-1 {
-     list-style-type: none
- }
-
- ol.lst-kix_2e48kp9015we-3.start {
-     counter-reset: lst-ctn-kix_2e48kp9015we-3 0
- }
-
- .lst-kix_2e48kp9015we-7>li {
-     counter-increment: lst-ctn-kix_2e48kp9015we-7
- }
-
- ol.lst-kix_2e48kp9015we-0 {
-     list-style-type: none
- }
-
- .lst-kix_2e48kp9015we-3>li {
-     counter-increment: lst-ctn-kix_2e48kp9015we-3
- }
-
- .lst-kix_2e48kp9015we-0>li {
-     counter-increment: lst-ctn-kix_2e48kp9015we-0
- }
-
- .lst-kix_2e48kp9015we-8>li:before {
-     content: "("counter(lst-ctn-kix_2e48kp9015we-8, lower-roman) ") "
- }
-
- ol.lst-kix_2e48kp9015we-8.start {
-     counter-reset: lst-ctn-kix_2e48kp9015we-8 0
- }
-
- ol.lst-kix_2e48kp9015we-6.start {
-     counter-reset: lst-ctn-kix_2e48kp9015we-6 0
- }
-
- .lst-kix_2e48kp9015we-5>li:before {
-     content: "("counter(lst-ctn-kix_2e48kp9015we-5, lower-latin) ") "
- }
-
- .lst-kix_2e48kp9015we-7>li:before {
-     content: "("counter(lst-ctn-kix_2e48kp9015we-7, lower-latin) ") "
- }
-
- .lst-kix_2e48kp9015we-6>li {
-     counter-increment: lst-ctn-kix_2e48kp9015we-6
- }
-
- .lst-kix_2e48kp9015we-2>li:before {
-     content: ""counter(lst-ctn-kix_2e48kp9015we-2, decimal) ". "
- }
-
- .lst-kix_2e48kp9015we-6>li:before {
-     content: "("counter(lst-ctn-kix_2e48kp9015we-6, lower-roman) ") "
- }
-
- ol.lst-kix_2e48kp9015we-8 {
-     list-style-type: none
- }
-
- ol.lst-kix_2e48kp9015we-1.start {
-     counter-reset: lst-ctn-kix_2e48kp9015we-1 0
- }
-
- ol.lst-kix_2e48kp9015we-7 {
-     list-style-type: none
- }
-
- .lst-kix_2e48kp9015we-3>li:before {
-     content: ""counter(lst-ctn-kix_2e48kp9015we-3, lower-latin) ") "
- }
-
- ol.lst-kix_2e48kp9015we-6 {
-     list-style-type: none
- }
-
- ol.lst-kix_2e48kp9015we-5 {
-     list-style-type: none
- }
-
- ol.lst-kix_2e48kp9015we-4 {
-     list-style-type: none
- }
-
- ol.lst-kix_2e48kp9015we-3 {
-     list-style-type: none
- }
-
- .lst-kix_2e48kp9015we-4>li {
-     counter-increment: lst-ctn-kix_2e48kp9015we-4
- }
-
- ol.lst-kix_2e48kp9015we-2 {
-     list-style-type: none
- }
-
- .lst-kix_2e48kp9015we-4>li:before {
-     content: "("counter(lst-ctn-kix_2e48kp9015we-4, decimal) ") "
- }
-
- .lst-kix_2e48kp9015we-1>li {
-     counter-increment: lst-ctn-kix_2e48kp9015we-1
- }
-
- ol.lst-kix_2e48kp9015we-4.start {
-     counter-reset: lst-ctn-kix_2e48kp9015we-4 0
- }
-
- .lst-kix_2e48kp9015we-1>li:before {
-     content: ""counter(lst-ctn-kix_2e48kp9015we-1, upper-latin) ". "
- }
-
- .lst-kix_2e48kp9015we-5>li {
-     counter-increment: lst-ctn-kix_2e48kp9015we-5
- }
-
- .lst-kix_2e48kp9015we-8>li {
-     counter-increment: lst-ctn-kix_2e48kp9015we-8
- }
-
- .lst-kix_2e48kp9015we-0>li:before {
-     content: ""counter(lst-ctn-kix_2e48kp9015we-0, upper-roman) ". "
- }
-
- ol {
-     margin: 0;
-     padding: 0
- }
-
- table td,
- table th {
-     padding: 0
- }
-
- .c9 {
-     border-right-style: solid;
-     padding: 5pt 5pt 5pt 5pt;
-     border-bottom-color: #000000;
-     border-top-width: 0pt;
-     border-right-width: 0pt;
-     border-left-color: #000000;
-     vertical-align: top;
-     border-right-color: #000000;
-     border-left-width: 0pt;
-     border-top-style: solid;
-     border-left-style: solid;
-     border-bottom-width: 0pt;
-     width: 468pt;
-     border-top-color: #000000;
-     border-bottom-style: solid
- }
-
- .c0 {
-     -webkit-text-decoration-skip: none;
-     color: #0e101a;
-     font-weight: 400;
-     text-decoration: underline;
-     vertical-align: baseline;
-     text-decoration-skip-ink: none;
-     font-size: 12pt;
-     font-family: "Trebuchet MS";
-     font-style: normal
- }
-
- .c12 {
-     background-color: #fce5cd;
-     color: #000000;
-     font-weight: 700;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 10pt;
-     font-family: "Trebuchet MS";
-     font-style: italic
- }
-
- .c13 {
-     background-color: #d5a6bd;
-     color: #000000;
-     font-weight: 700;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 13pt;
-     font-family: "Trebuchet MS";
-     font-style: normal
- }
-
- .c4 {
-     background-color: #d5a6bd;
-     color: #000000;
-     font-weight: 700;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 15pt;
-     font-family: "Trebuchet MS";
-     font-style: normal
- }
-
- .c40 {
-     color: #0e101a;
-     font-weight: 400;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 12pt;
-     font-family: "Roboto Mono";
-     font-style: normal
- }
-
- .c15 {
-     color: #0e101a;
-     font-weight: 700;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 12pt;
-     font-family: "Book Antiqua";
-     font-style: normal
- }
-
- .c30 {
-     color: #000000;
-     font-weight: 700;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 24pt;
-     font-family: "Trebuchet MS";
-     font-style: normal
- }
-
- .c26 {
-     color: #000000;
-     font-weight: 700;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 17pt;
-     font-family: "Book Antiqua";
-     font-style: normal
- }
-
- .c8 {
-     color: #000000;
-     font-weight: 700;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 12pt;
-     font-family: "Trebuchet MS";
-     font-style: normal
- }
-
- .c31 {
-     color: #000000;
-     font-weight: 700;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 13pt;
-     font-family: "Trebuchet MS";
-     font-style: normal
- }
-
- .c2 {
-     color: #000000;
-     font-weight: 400;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 12pt;
-     font-family: "Trebuchet MS";
-     font-style: normal
- }
-
- .c16 {
-     margin-left: 18pt;
-     padding-top: 3pt;
-     padding-bottom: 0pt;
-     line-height: 1.0;
-     orphans: 2;
-     widows: 2;
-     text-align: left
- }
-
- .c14 {
-     color: #000000;
-     font-weight: 400;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 13pt;
-     font-family: "Trebuchet MS";
-     font-style: normal
- }
-
- .c33 {
-     color: #000000;
-     font-weight: 700;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 12pt;
-     font-family: "Roboto Mono";
-     font-style: normal
- }
-
- .c32 {
-     color: #000000;
-     font-weight: 700;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 20pt;
-     font-family: "Cambria";
-     font-style: normal
- }
-
- .c25 {
-     color: #000000;
-     font-weight: 400;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 15pt;
-     font-family: "Cambria";
-     font-style: normal
- }
-
- .c38 {
-     padding-top: 10pt;
-     padding-bottom: 4pt;
-     line-height: 1.0;
-     orphans: 2;
-     widows: 2;
-     text-align: left
- }
-
- .c3 {
-     padding-top: 0pt;
-     padding-bottom: 0pt;
-     line-height: 1.5;
-     orphans: 2;
-     widows: 2;
-     text-align: left
- }
-
- .c41 {
-     padding-top: 4pt;
-     padding-bottom: 0pt;
-     line-height: 1.0;
-     orphans: 2;
-     widows: 2;
-     text-align: left
- }
-
- .c37 {
-     color: #000000;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 13pt;
-     font-family: "Trebuchet MS";
-     font-style: italic
- }
-
- .c39 {
-     padding-top: 10pt;
-     padding-bottom: 0pt;
-     line-height: 1.0;
-     orphans: 2;
-     widows: 2;
-     text-align: left
- }
-
- .c42 {
-     color: #000000;
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 12pt;
-     font-family: "Charmonman";
-     font-style: normal
- }
-
- .c11 {
-     padding-top: 0pt;
-     padding-bottom: 0pt;
-     line-height: 1.5;
-     orphans: 2;
-     widows: 2;
-     text-align: center
- }
-
- .c6 {
-     border-spacing: 0;
-     border-collapse: collapse;
-     margin-right: auto
- }
-
- .c45 {
-     text-decoration: none;
-     vertical-align: baseline;
-     font-size: 12pt;
-     font-style: normal
- }
-
- .c24 {
-     padding-top: 0pt;
-     padding-bottom: 0pt;
-     line-height: 1.15;
-     text-align: center
- }
-
- .c18 {
-     background-color: #fce5cd;
-     font-size: 10pt;
-     font-style: italic;
-     font-weight: 700
- }
-
- .c34 {
-     text-decoration-skip-ink: none;
-     -webkit-text-decoration-skip: none;
-     color: #1155cc;
-     text-decoration: underline
- }
-
- .c1 {
-     font-size: 15pt;
-     font-family: "Trebuchet MS";
-     font-style: italic;
-     font-weight: 700
- }
-
- .c7 {
-     text-decoration-skip-ink: none;
-     -webkit-text-decoration-skip: none;
-     color: #0e101a;
-     text-decoration: underline
- }
-
- .c27 {
-     background-color: #ffffff;
-     max-width: 468pt;
-     padding: 72pt 72pt 76.5pt 72pt
- }
-
- .c29 {
-     font-size: 13pt;
-     font-family: "Trebuchet MS";
-     font-weight: 400
- }
-
- .c22 {
-     font-family: "Consolas";
-     color: #0e101a;
-     font-weight: 400
- }
-
- .c28 {
-     font-family: "Consolas";
-     color: #383a42;
-     font-weight: 700
- }
-
- .c23 {
-     font-family: "Consolas";
-     color: #0e101a;
-     font-weight: 700
- }
-
- .c20 {
-     font-family: "Consolas";
-     color: #986801;
-     font-weight: 700
- }
-
- .c19 {
-     color: inherit;
-     text-decoration: inherit
- }
-
- .c17 {
-     background-color: #d5a6bd
- }
-
- .c35 {
-     background-color: #fce5cd
- }
-
- .c44 {
-     height: 32.5pt
- }
-
- .c36 {
-     font-weight: 700
- }
-
- .c43 {
-     height: 24pt
- }
-
- .c10 {
-     height: 12pt
- }
-
- .c5 {
-     page-break-after: avoid
- }
-
- .c21 {
-     height: 0pt
- }
-
- .title {
-     padding-top: 0pt;
-     color: #000000;
-     font-size: 26pt;
-     padding-bottom: 3pt;
-     font-family: "Trebuchet MS";
-     line-height: 1.5;
-     page-break-after: avoid;
-     orphans: 2;
-     widows: 2;
-     text-align: left
- }
-
- .subtitle {
-     padding-top: 0pt;
-     color: #666666;
-     font-size: 15pt;
-     padding-bottom: 16pt;
-     font-family: "Arial";
-     line-height: 1.5;
-     page-break-after: avoid;
-     orphans: 2;
-     widows: 2;
-     text-align: left
- }
-
- li {
-     color: #000000;
-     font-size: 12pt;
-     font-family: "Trebuchet MS"
- }
-
- p {
-     margin: 0;
-     color: #000000;
-     font-size: 12pt;
-     font-family: "Trebuchet MS"
- }
-
- h1 {
-     padding-top: 0pt;
-     color: #000000;
-     font-weight: 700;
-     font-size: 24pt;
-     padding-bottom: 0pt;
-     font-family: "Trebuchet MS";
-     line-height: 1.5;
-     page-break-after: avoid;
-     orphans: 2;
-     widows: 2;
-     text-align: left
- }
-
- h2 {
-     background-color: #d5a6bd;
-     padding-top: 0pt;
-     color: #000000;
-     font-weight: 700;
-     font-size: 15pt;
-     padding-bottom: 0pt;
-     font-family: "Trebuchet MS";
-     line-height: 1.5;
-     page-break-after: avoid;
-     orphans: 2;
-     widows: 2;
-     text-align: left
- }
-
- h3 {
-     padding-top: 16pt;
-     color: #434343;
-     font-size: 14pt;
-     padding-bottom: 4pt;
-     font-family: "Trebuchet MS";
-     line-height: 1.5;
-     page-break-after: avoid;
-     orphans: 2;
-     widows: 2;
-     text-align: left
- }
-
- h4 {
-     padding-top: 14pt;
-     color: #666666;
-     font-size: 12pt;
-     padding-bottom: 4pt;
-     font-family: "Trebuchet MS";
-     line-height: 1.5;
-     page-break-after: avoid;
-     orphans: 2;
-     widows: 2;
-     text-align: left
- }
-
- h5 {
-     padding-top: 12pt;
-     color: #666666;
-     font-size: 11pt;
-     padding-bottom: 4pt;
-     font-family: "Trebuchet MS";
-     line-height: 1.5;
-     page-break-after: avoid;
-     orphans: 2;
-     widows: 2;
-     text-align: left
- }
-
- h6 {
-     padding-top: 12pt;
-     color: #666666;
-     font-size: 11pt;
-     padding-bottom: 4pt;
-     font-family: "Trebuchet MS";
-     line-height: 1.5;
-     page-break-after: avoid;
-     font-style: italic;
-     orphans: 2;
-     widows: 2;
-     text-align: left
- }
+ol.lst-kix_2e48kp9015we-7.start {
+    counter-reset: lst-ctn-kix_2e48kp9015we-7 0
+}
+
+ol.lst-kix_gs4at0d0tu87-3 {
+    list-style-type: none
+}
+
+ol.lst-kix_gs4at0d0tu87-2 {
+    list-style-type: none
+}
+
+ol.lst-kix_gs4at0d0tu87-5 {
+    list-style-type: none
+}
+
+ol.lst-kix_gs4at0d0tu87-4 {
+    list-style-type: none
+}
+
+ol.lst-kix_gs4at0d0tu87-4.start {
+    counter-reset: lst-ctn-kix_gs4at0d0tu87-4 0
+}
+
+ol.lst-kix_gs4at0d0tu87-1 {
+    list-style-type: none
+}
+
+ol.lst-kix_gs4at0d0tu87-0 {
+    list-style-type: none
+}
+
+.lst-kix_2e48kp9015we-0>li {
+    counter-increment: lst-ctn-kix_2e48kp9015we-0
+}
+
+ul.lst-kix_pen8e5uug3mr-3 {
+    list-style-type: none
+}
+
+ul.lst-kix_pen8e5uug3mr-4 {
+    list-style-type: none
+}
+
+ul.lst-kix_pen8e5uug3mr-1 {
+    list-style-type: none
+}
+
+.lst-kix_2e48kp9015we-5>li:before {
+    content: "("counter(lst-ctn-kix_2e48kp9015we-5, lower-latin) ") "
+}
+
+.lst-kix_2e48kp9015we-7>li:before {
+    content: "("counter(lst-ctn-kix_2e48kp9015we-7, lower-latin) ") "
+}
+
+ul.lst-kix_pen8e5uug3mr-2 {
+    list-style-type: none
+}
+
+ul.lst-kix_pen8e5uug3mr-7 {
+    list-style-type: none
+}
+
+ul.lst-kix_pen8e5uug3mr-8 {
+    list-style-type: none
+}
+
+ul.lst-kix_pen8e5uug3mr-5 {
+    list-style-type: none
+}
+
+.lst-kix_2e48kp9015we-2>li:before {
+    content: ""counter(lst-ctn-kix_2e48kp9015we-2, decimal) ". "
+}
+
+.lst-kix_2e48kp9015we-6>li:before {
+    content: "("counter(lst-ctn-kix_2e48kp9015we-6, lower-roman) ") "
+}
+
+ul.lst-kix_pen8e5uug3mr-6 {
+    list-style-type: none
+}
+
+.lst-kix_yd5c2vz3qirf-1>li:before {
+    content: "\0025cb  "
+}
+
+ol.lst-kix_2e48kp9015we-8 {
+    list-style-type: none
+}
+
+ol.lst-kix_2e48kp9015we-7 {
+    list-style-type: none
+}
+
+.lst-kix_yd5c2vz3qirf-0>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_yd5c2vz3qirf-2>li:before {
+    content: "\0025a0  "
+}
+
+.lst-kix_2e48kp9015we-3>li:before {
+    content: ""counter(lst-ctn-kix_2e48kp9015we-3, lower-latin) ") "
+}
+
+ol.lst-kix_2e48kp9015we-6 {
+    list-style-type: none
+}
+
+ol.lst-kix_2e48kp9015we-5 {
+    list-style-type: none
+}
+
+ol.lst-kix_2e48kp9015we-4 {
+    list-style-type: none
+}
+
+ol.lst-kix_2e48kp9015we-3 {
+    list-style-type: none
+}
+
+ol.lst-kix_2e48kp9015we-2 {
+    list-style-type: none
+}
+
+.lst-kix_2e48kp9015we-4>li:before {
+    content: "("counter(lst-ctn-kix_2e48kp9015we-4, decimal) ") "
+}
+
+.lst-kix_2e48kp9015we-1>li:before {
+    content: ""counter(lst-ctn-kix_2e48kp9015we-1, upper-latin) ". "
+}
+
+.lst-kix_2e48kp9015we-0>li:before {
+    content: ""counter(lst-ctn-kix_2e48kp9015we-0, upper-roman) ". "
+}
+
+ol.lst-kix_2e48kp9015we-2.start {
+    counter-reset: lst-ctn-kix_2e48kp9015we-2 0
+}
+
+.lst-kix_2e48kp9015we-7>li {
+    counter-increment: lst-ctn-kix_2e48kp9015we-7
+}
+
+.lst-kix_gs4at0d0tu87-5>li {
+    counter-increment: lst-ctn-kix_gs4at0d0tu87-5
+}
+
+.lst-kix_2e48kp9015we-8>li:before {
+    content: "("counter(lst-ctn-kix_2e48kp9015we-8, lower-roman) ") "
+}
+
+ol.lst-kix_2e48kp9015we-8.start {
+    counter-reset: lst-ctn-kix_2e48kp9015we-8 0
+}
+
+ol.lst-kix_2e48kp9015we-1.start {
+    counter-reset: lst-ctn-kix_2e48kp9015we-1 0
+}
+
+.lst-kix_tgfawc8a7bfg-2>li:before {
+    content: "\0025a0  "
+}
+
+ol.lst-kix_2e48kp9015we-0.start {
+    counter-reset: lst-ctn-kix_2e48kp9015we-0 0
+}
+
+.lst-kix_pen8e5uug3mr-6>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_pen8e5uug3mr-8>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_tgfawc8a7bfg-0>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_tgfawc8a7bfg-4>li:before {
+    content: "\0025cb  "
+}
+
+.lst-kix_13gdosfv8qfc-5>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_tgfawc8a7bfg-6>li:before {
+    content: "\0025cf  "
+}
+
+ol.lst-kix_gs4at0d0tu87-8.start {
+    counter-reset: lst-ctn-kix_gs4at0d0tu87-8 0
+}
+
+.lst-kix_13gdosfv8qfc-3>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_pen8e5uug3mr-0>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_tgfawc8a7bfg-8>li:before {
+    content: "\0025a0  "
+}
+
+.lst-kix_13gdosfv8qfc-1>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_pen8e5uug3mr-2>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_pen8e5uug3mr-4>li:before {
+    content: "\0025cf  "
+}
+
+ul.lst-kix_tgfawc8a7bfg-1 {
+    list-style-type: none
+}
+
+ul.lst-kix_tgfawc8a7bfg-0 {
+    list-style-type: none
+}
+
+.lst-kix_gs4at0d0tu87-3>li {
+    counter-increment: lst-ctn-kix_gs4at0d0tu87-3
+}
+
+.lst-kix_gs4at0d0tu87-1>li:before {
+    content: ""counter(lst-ctn-kix_gs4at0d0tu87-1, lower-latin) ". "
+}
+
+.lst-kix_gs4at0d0tu87-3>li:before {
+    content: ""counter(lst-ctn-kix_gs4at0d0tu87-3, decimal) ". "
+}
+
+.lst-kix_9vv93el70a3v-0>li:before {
+    content: "\0025cf  "
+}
+
+ol.lst-kix_gs4at0d0tu87-3.start {
+    counter-reset: lst-ctn-kix_gs4at0d0tu87-3 0
+}
+
+.lst-kix_9vv93el70a3v-2>li:before {
+    content: "\0025cf  "
+}
+
+ul.lst-kix_tgfawc8a7bfg-8 {
+    list-style-type: none
+}
+
+ul.lst-kix_tgfawc8a7bfg-7 {
+    list-style-type: none
+}
+
+ul.lst-kix_tgfawc8a7bfg-6 {
+    list-style-type: none
+}
+
+ul.lst-kix_tgfawc8a7bfg-5 {
+    list-style-type: none
+}
+
+ul.lst-kix_tgfawc8a7bfg-4 {
+    list-style-type: none
+}
+
+ul.lst-kix_tgfawc8a7bfg-3 {
+    list-style-type: none
+}
+
+.lst-kix_9vv93el70a3v-4>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_13gdosfv8qfc-7>li:before {
+    content: "\0025cf  "
+}
+
+ul.lst-kix_tgfawc8a7bfg-2 {
+    list-style-type: none
+}
+
+.lst-kix_fwkttzsjrro7-4>li:before {
+    content: "\0025cb  "
+}
+
+.lst-kix_fwkttzsjrro7-6>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_2e48kp9015we-2>li {
+    counter-increment: lst-ctn-kix_2e48kp9015we-2
+}
+
+ol.lst-kix_gs4at0d0tu87-6.start {
+    counter-reset: lst-ctn-kix_gs4at0d0tu87-6 0
+}
+
+.lst-kix_fwkttzsjrro7-0>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_fwkttzsjrro7-8>li:before {
+    content: "\0025a0  "
+}
+
+.lst-kix_yd5c2vz3qirf-5>li:before {
+    content: "\0025a0  "
+}
+
+.lst-kix_gs4at0d0tu87-5>li:before {
+    content: ""counter(lst-ctn-kix_gs4at0d0tu87-5, lower-roman) ". "
+}
+
+.lst-kix_gs4at0d0tu87-7>li:before {
+    content: ""counter(lst-ctn-kix_gs4at0d0tu87-7, lower-latin) ". "
+}
+
+.lst-kix_yd5c2vz3qirf-3>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_yd5c2vz3qirf-7>li:before {
+    content: "\0025cb  "
+}
+
+ul.lst-kix_fwkttzsjrro7-1 {
+    list-style-type: none
+}
+
+ul.lst-kix_fwkttzsjrro7-0 {
+    list-style-type: none
+}
+
+.lst-kix_rygo3gqo84ej-8>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_fwkttzsjrro7-2>li:before {
+    content: "\0025a0  "
+}
+
+ul.lst-kix_pen8e5uug3mr-0 {
+    list-style-type: none
+}
+
+.lst-kix_rygo3gqo84ej-4>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_rygo3gqo84ej-2>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_rygo3gqo84ej-6>li:before {
+    content: "\0025cf  "
+}
+
+ul.lst-kix_fwkttzsjrro7-3 {
+    list-style-type: none
+}
+
+ul.lst-kix_fwkttzsjrro7-2 {
+    list-style-type: none
+}
+
+ul.lst-kix_fwkttzsjrro7-5 {
+    list-style-type: none
+}
+
+ul.lst-kix_fwkttzsjrro7-4 {
+    list-style-type: none
+}
+
+ul.lst-kix_fwkttzsjrro7-7 {
+    list-style-type: none
+}
+
+ul.lst-kix_fwkttzsjrro7-6 {
+    list-style-type: none
+}
+
+.lst-kix_e9dtb9kcp2l-1>li:before {
+    content: "\0025cf  "
+}
+
+ul.lst-kix_fwkttzsjrro7-8 {
+    list-style-type: none
+}
+
+.lst-kix_e9dtb9kcp2l-3>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_e9dtb9kcp2l-7>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_gs4at0d0tu87-4>li {
+    counter-increment: lst-ctn-kix_gs4at0d0tu87-4
+}
+
+.lst-kix_rygo3gqo84ej-0>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_2e48kp9015we-8>li {
+    counter-increment: lst-ctn-kix_2e48kp9015we-8
+}
+
+ol.lst-kix_gs4at0d0tu87-5.start {
+    counter-reset: lst-ctn-kix_gs4at0d0tu87-5 0
+}
+
+.lst-kix_e9dtb9kcp2l-5>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_gs4at0d0tu87-8>li {
+    counter-increment: lst-ctn-kix_gs4at0d0tu87-8
+}
+
+ol.lst-kix_gs4at0d0tu87-1.start {
+    counter-reset: lst-ctn-kix_gs4at0d0tu87-1 0
+}
+
+ul.lst-kix_e9dtb9kcp2l-0 {
+    list-style-type: none
+}
+
+.lst-kix_gs4at0d0tu87-6>li {
+    counter-increment: lst-ctn-kix_gs4at0d0tu87-6
+}
+
+ul.lst-kix_e9dtb9kcp2l-1 {
+    list-style-type: none
+}
+
+ol.lst-kix_gs4at0d0tu87-7.start {
+    counter-reset: lst-ctn-kix_gs4at0d0tu87-7 0
+}
+
+ul.lst-kix_9vv93el70a3v-4 {
+    list-style-type: none
+}
+
+ul.lst-kix_9vv93el70a3v-5 {
+    list-style-type: none
+}
+
+ul.lst-kix_9vv93el70a3v-6 {
+    list-style-type: none
+}
+
+.lst-kix_2e48kp9015we-1>li {
+    counter-increment: lst-ctn-kix_2e48kp9015we-1
+}
+
+ul.lst-kix_9vv93el70a3v-7 {
+    list-style-type: none
+}
+
+ul.lst-kix_9vv93el70a3v-0 {
+    list-style-type: none
+}
+
+ul.lst-kix_9vv93el70a3v-1 {
+    list-style-type: none
+}
+
+ul.lst-kix_9vv93el70a3v-2 {
+    list-style-type: none
+}
+
+ul.lst-kix_9vv93el70a3v-3 {
+    list-style-type: none
+}
+
+ul.lst-kix_9vv93el70a3v-8 {
+    list-style-type: none
+}
+
+.lst-kix_ginetxyoutue-5>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_ginetxyoutue-7>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_9vv93el70a3v-6>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_ginetxyoutue-4>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_ginetxyoutue-8>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_9vv93el70a3v-7>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_9vv93el70a3v-8>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_ginetxyoutue-6>li:before {
+    content: "\0025cf  "
+}
+
+ul.lst-kix_yd5c2vz3qirf-7 {
+    list-style-type: none
+}
+
+ul.lst-kix_yd5c2vz3qirf-8 {
+    list-style-type: none
+}
+
+.lst-kix_ginetxyoutue-0>li:before {
+    content: "\0025cf  "
+}
+
+ul.lst-kix_yd5c2vz3qirf-3 {
+    list-style-type: none
+}
+
+ul.lst-kix_yd5c2vz3qirf-4 {
+    list-style-type: none
+}
+
+ul.lst-kix_yd5c2vz3qirf-5 {
+    list-style-type: none
+}
+
+.lst-kix_2e48kp9015we-3>li {
+    counter-increment: lst-ctn-kix_2e48kp9015we-3
+}
+
+ul.lst-kix_yd5c2vz3qirf-6 {
+    list-style-type: none
+}
+
+.lst-kix_ginetxyoutue-1>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_ginetxyoutue-3>li:before {
+    content: "\0025cf  "
+}
+
+ul.lst-kix_yd5c2vz3qirf-0 {
+    list-style-type: none
+}
+
+ul.lst-kix_yd5c2vz3qirf-1 {
+    list-style-type: none
+}
+
+ul.lst-kix_yd5c2vz3qirf-2 {
+    list-style-type: none
+}
+
+.lst-kix_ginetxyoutue-2>li:before {
+    content: "\0025cf  "
+}
+
+ul.lst-kix_ginetxyoutue-6 {
+    list-style-type: none
+}
+
+ul.lst-kix_ginetxyoutue-5 {
+    list-style-type: none
+}
+
+ul.lst-kix_ginetxyoutue-4 {
+    list-style-type: none
+}
+
+ul.lst-kix_ginetxyoutue-3 {
+    list-style-type: none
+}
+
+ul.lst-kix_ginetxyoutue-2 {
+    list-style-type: none
+}
+
+ul.lst-kix_ginetxyoutue-1 {
+    list-style-type: none
+}
+
+ul.lst-kix_ginetxyoutue-0 {
+    list-style-type: none
+}
+
+ol.lst-kix_gs4at0d0tu87-2.start {
+    counter-reset: lst-ctn-kix_gs4at0d0tu87-2 0
+}
+
+ul.lst-kix_ginetxyoutue-8 {
+    list-style-type: none
+}
+
+ul.lst-kix_ginetxyoutue-7 {
+    list-style-type: none
+}
+
+.lst-kix_pen8e5uug3mr-7>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_13gdosfv8qfc-8>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_pen8e5uug3mr-5>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_13gdosfv8qfc-6>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_tgfawc8a7bfg-3>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_e9dtb9kcp2l-8>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_13gdosfv8qfc-4>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_tgfawc8a7bfg-5>li:before {
+    content: "\0025a0  "
+}
+
+ol.lst-kix_2e48kp9015we-3.start {
+    counter-reset: lst-ctn-kix_2e48kp9015we-3 0
+}
+
+.lst-kix_13gdosfv8qfc-0>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_gs4at0d0tu87-2>li {
+    counter-increment: lst-ctn-kix_gs4at0d0tu87-2
+}
+
+.lst-kix_pen8e5uug3mr-1>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_13gdosfv8qfc-2>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_tgfawc8a7bfg-7>li:before {
+    content: "\0025cb  "
+}
+
+.lst-kix_pen8e5uug3mr-3>li:before {
+    content: "\0025cf  "
+}
+
+ol.lst-kix_2e48kp9015we-6.start {
+    counter-reset: lst-ctn-kix_2e48kp9015we-6 0
+}
+
+.lst-kix_gs4at0d0tu87-0>li {
+    counter-increment: lst-ctn-kix_gs4at0d0tu87-0
+}
+
+ol.lst-kix_gs4at0d0tu87-0.start {
+    counter-reset: lst-ctn-kix_gs4at0d0tu87-0 0
+}
+
+.lst-kix_2e48kp9015we-6>li {
+    counter-increment: lst-ctn-kix_2e48kp9015we-6
+}
+
+.lst-kix_gs4at0d0tu87-0>li:before {
+    content: ""counter(lst-ctn-kix_gs4at0d0tu87-0, decimal) ". "
+}
+
+.lst-kix_2e48kp9015we-4>li {
+    counter-increment: lst-ctn-kix_2e48kp9015we-4
+}
+
+.lst-kix_gs4at0d0tu87-2>li:before {
+    content: ""counter(lst-ctn-kix_gs4at0d0tu87-2, lower-roman) ". "
+}
+
+.lst-kix_9vv93el70a3v-1>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_9vv93el70a3v-5>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_9vv93el70a3v-3>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_tgfawc8a7bfg-1>li:before {
+    content: "\0025cb  "
+}
+
+ol.lst-kix_2e48kp9015we-5.start {
+    counter-reset: lst-ctn-kix_2e48kp9015we-5 0
+}
+
+.lst-kix_fwkttzsjrro7-5>li:before {
+    content: "\0025a0  "
+}
+
+ul.lst-kix_13gdosfv8qfc-2 {
+    list-style-type: none
+}
+
+ul.lst-kix_13gdosfv8qfc-3 {
+    list-style-type: none
+}
+
+.lst-kix_yd5c2vz3qirf-8>li:before {
+    content: "\0025a0  "
+}
+
+ul.lst-kix_13gdosfv8qfc-0 {
+    list-style-type: none
+}
+
+ul.lst-kix_13gdosfv8qfc-1 {
+    list-style-type: none
+}
+
+ul.lst-kix_13gdosfv8qfc-6 {
+    list-style-type: none
+}
+
+ul.lst-kix_13gdosfv8qfc-7 {
+    list-style-type: none
+}
+
+ul.lst-kix_13gdosfv8qfc-4 {
+    list-style-type: none
+}
+
+ul.lst-kix_13gdosfv8qfc-5 {
+    list-style-type: none
+}
+
+.lst-kix_fwkttzsjrro7-7>li:before {
+    content: "\0025cb  "
+}
+
+ol.lst-kix_2e48kp9015we-1 {
+    list-style-type: none
+}
+
+ol.lst-kix_2e48kp9015we-0 {
+    list-style-type: none
+}
+
+.lst-kix_yd5c2vz3qirf-4>li:before {
+    content: "\0025cb  "
+}
+
+.lst-kix_yd5c2vz3qirf-6>li:before {
+    content: "\0025cf  "
+}
+
+ul.lst-kix_13gdosfv8qfc-8 {
+    list-style-type: none
+}
+
+.lst-kix_gs4at0d0tu87-4>li:before {
+    content: ""counter(lst-ctn-kix_gs4at0d0tu87-4, lower-latin) ". "
+}
+
+.lst-kix_gs4at0d0tu87-8>li:before {
+    content: ""counter(lst-ctn-kix_gs4at0d0tu87-8, lower-roman) ". "
+}
+
+.lst-kix_fwkttzsjrro7-1>li:before {
+    content: "\0025cb  "
+}
+
+ul.lst-kix_e9dtb9kcp2l-2 {
+    list-style-type: none
+}
+
+ul.lst-kix_e9dtb9kcp2l-3 {
+    list-style-type: none
+}
+
+.lst-kix_rygo3gqo84ej-7>li:before {
+    content: "\0025cf  "
+}
+
+ul.lst-kix_e9dtb9kcp2l-4 {
+    list-style-type: none
+}
+
+ul.lst-kix_e9dtb9kcp2l-5 {
+    list-style-type: none
+}
+
+ul.lst-kix_e9dtb9kcp2l-6 {
+    list-style-type: none
+}
+
+ul.lst-kix_e9dtb9kcp2l-7 {
+    list-style-type: none
+}
+
+ul.lst-kix_e9dtb9kcp2l-8 {
+    list-style-type: none
+}
+
+.lst-kix_gs4at0d0tu87-6>li:before {
+    content: ""counter(lst-ctn-kix_gs4at0d0tu87-6, decimal) ". "
+}
+
+.lst-kix_fwkttzsjrro7-3>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_rygo3gqo84ej-3>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_e9dtb9kcp2l-0>li:before {
+    content: "\0025cf  "
+}
+
+ol.lst-kix_gs4at0d0tu87-7 {
+    list-style-type: none
+}
+
+.lst-kix_e9dtb9kcp2l-2>li:before {
+    content: "\0025cf  "
+}
+
+ol.lst-kix_gs4at0d0tu87-6 {
+    list-style-type: none
+}
+
+.lst-kix_rygo3gqo84ej-5>li:before {
+    content: "\0025cf  "
+}
+
+li.li-bullet-0:before {
+    margin-left: -18pt;
+    white-space: nowrap;
+    display: inline-block;
+    min-width: 18pt
+}
+
+ol.lst-kix_gs4at0d0tu87-8 {
+    list-style-type: none
+}
+
+.lst-kix_e9dtb9kcp2l-4>li:before {
+    content: "\0025cf  "
+}
+
+ul.lst-kix_rygo3gqo84ej-2 {
+    list-style-type: none
+}
+
+ul.lst-kix_rygo3gqo84ej-1 {
+    list-style-type: none
+}
+
+ul.lst-kix_rygo3gqo84ej-0 {
+    list-style-type: none
+}
+
+ul.lst-kix_rygo3gqo84ej-6 {
+    list-style-type: none
+}
+
+ul.lst-kix_rygo3gqo84ej-5 {
+    list-style-type: none
+}
+
+ul.lst-kix_rygo3gqo84ej-4 {
+    list-style-type: none
+}
+
+ul.lst-kix_rygo3gqo84ej-3 {
+    list-style-type: none
+}
+
+ol.lst-kix_2e48kp9015we-4.start {
+    counter-reset: lst-ctn-kix_2e48kp9015we-4 0
+}
+
+.lst-kix_gs4at0d0tu87-1>li {
+    counter-increment: lst-ctn-kix_gs4at0d0tu87-1
+}
+
+ul.lst-kix_rygo3gqo84ej-8 {
+    list-style-type: none
+}
+
+.lst-kix_gs4at0d0tu87-7>li {
+    counter-increment: lst-ctn-kix_gs4at0d0tu87-7
+}
+
+ul.lst-kix_rygo3gqo84ej-7 {
+    list-style-type: none
+}
+
+.lst-kix_2e48kp9015we-5>li {
+    counter-increment: lst-ctn-kix_2e48kp9015we-5
+}
+
+.lst-kix_e9dtb9kcp2l-6>li:before {
+    content: "\0025cf  "
+}
+
+.lst-kix_rygo3gqo84ej-1>li:before {
+    content: "\0025cf  "
+}
+
+ol {
+    margin: 0;
+    padding: 0
+}
+
+table td,
+table th {
+    padding: 0
+}
+
+.c26 {
+    border-right-style: solid;
+    padding: 5pt 5pt 5pt 5pt;
+    border-bottom-color: #000000;
+    border-top-width: 0pt;
+    border-right-width: 0pt;
+    border-left-color: #000000;
+    vertical-align: top;
+    border-right-color: #000000;
+    border-left-width: 0pt;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-width: 0pt;
+    width: 468pt;
+    border-top-color: #000000;
+    border-bottom-style: solid
+}
+
+.c37 {
+    background-color: #fce5cd;
+    color: #0e101a;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 12pt;
+    font-family: "Trebuchet MS";
+    font-style: normal
+}
+
+.c14 {
+    background-color: #fce5cd;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 13pt;
+    font-family: "Trebuchet MS";
+    font-style: italic
+}
+
+.c17 {
+    background-color: #d5a6bd;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 13pt;
+    font-family: "Charmonman";
+    font-style: normal
+}
+
+.c23 {
+    background-color: #d5a6bd;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 15pt;
+    font-family: "Trebuchet MS";
+    font-style: normal
+}
+
+.c36 {
+    background-color: #fce5cd;
+    color: #0e101a;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 12pt;
+    font-family: "Trebuchet MS";
+    font-style: italic
+}
+
+.c11 {
+    color: #6aa84f;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 12pt;
+    font-family: "Trebuchet MS";
+    font-style: italic
+}
+
+.c32 {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 20pt;
+    font-family: "Cambria";
+    font-style: normal
+}
+
+.c39 {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 14pt;
+    font-family: "Cambria";
+    font-style: normal
+}
+
+.c51 {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 12pt;
+    font-family: "Trebuchet MS";
+    font-style: italic
+}
+
+.c5 {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 15pt;
+    font-family: "Cambria";
+    font-style: normal
+}
+
+.c15 {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 12pt;
+    font-family: "Cambria";
+    font-style: normal
+}
+
+.c41 {
+    padding-top: 12pt;
+    padding-bottom: 0pt;
+    line-height: 1.5;
+    orphans: 2;
+    widows: 2;
+    text-align: center;
+    margin-right: 15pt
+}
+
+.c21 {
+    margin-left: 18pt;
+    padding-top: 3pt;
+    padding-bottom: 0pt;
+    line-height: 1.0;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+.c19 {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 12pt;
+    font-family: "Trebuchet MS";
+    font-style: normal
+}
+
+.c3 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.5;
+    orphans: 2;
+    widows: 2;
+    text-align: center;
+    height: 12pt
+}
+
+.c8 {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 13pt;
+    font-family: "Trebuchet MS";
+    font-style: normal
+}
+
+.c2 {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 12pt;
+    font-family: "Trebuchet MS";
+    font-style: normal
+}
+
+.c45 {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 15pt;
+    font-family: "Cambria";
+    font-style: normal
+}
+
+.c20 {
+    color: #0e101a;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 12pt;
+    font-family: "Roboto Mono";
+    font-style: normal
+}
+
+.c1 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.5;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+.c0 {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 24pt;
+    font-family: "Trebuchet MS";
+    font-style: normal
+}
+
+.c10 {
+    color: #6aa84f;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 12pt;
+    font-family: "Trebuchet MS";
+    font-style: normal
+}
+
+.c27 {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 13pt;
+    font-family: "Trebuchet MS";
+    font-style: normal
+}
+
+.c67 {
+    padding-top: 10pt;
+    padding-bottom: 4pt;
+    line-height: 1.0;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+.c6 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.5;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+.c52 {
+    padding-top: 4pt;
+    padding-bottom: 0pt;
+    line-height: 1.0;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+.c49 {
+    color: #000000;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 17pt;
+    font-family: "Book Antiqua";
+    font-style: normal
+}
+
+.c12 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.5;
+    orphans: 2;
+    widows: 2;
+    text-align: center
+}
+
+.c13 {
+    padding-top: 10pt;
+    padding-bottom: 0pt;
+    line-height: 1.0;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+.c25 {
+    padding-top: 12pt;
+    padding-bottom: 7pt;
+    line-height: 1.5;
+    orphans: 2;
+    widows: 2;
+    text-align: center
+}
+
+.c57 {
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 12pt;
+    font-style: normal
+}
+
+.c16 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.15;
+    text-align: center
+}
+
+.c28 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.15;
+    text-align: left
+}
+
+.c47 {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-right: auto
+}
+
+.c7 {
+    text-decoration-skip-ink: none;
+    -webkit-text-decoration-skip: none;
+    color: #1155cc;
+    text-decoration: underline
+}
+
+.c24 {
+    font-size: 15pt;
+    font-family: "Trebuchet MS";
+    font-style: italic;
+    font-weight: 700
+}
+
+.c44 {
+    background-color: #fce5cd;
+    font-style: italic;
+    color: #0e101a;
+    font-weight: 700
+}
+
+.c66 {
+    color: #000000;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-style: normal
+}
+
+.c71 {
+    color: #000000;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-family: "Trebuchet MS"
+}
+
+.c54 {
+    background-color: #fce5cd;
+    font-size: 10pt;
+    font-style: italic
+}
+
+.c72 {
+    background-color: #ffffff;
+    max-width: 468pt;
+    padding: 72pt 72pt 76.5pt 72pt
+}
+
+.c31 {
+    font-family: "Consolas";
+    color: #383a42;
+    font-weight: 700
+}
+
+.c34 {
+    font-family: "Consolas";
+    color: #c18401;
+    font-weight: 400
+}
+
+.c43 {
+    font-size: 15pt;
+    font-family: "Cambria";
+    font-weight: 700
+}
+
+.c18 {
+    font-family: "Roboto";
+    color: #0074db;
+    font-weight: 400
+}
+
+.c46 {
+    font-family: "Consolas";
+    color: #383a42;
+    font-weight: 400
+}
+
+.c22 {
+    font-size: 13pt;
+    font-family: "Trebuchet MS";
+    font-weight: 400
+}
+
+.c74 {
+    font-family: "Roboto";
+    color: #404040
+}
+
+.c56 {
+    font-size: 14pt;
+    font-family: "Cambria"
+}
+
+.c42 {
+    font-size: 24pt;
+    font-weight: 700
+}
+
+.c64 {
+    margin-left: 108pt;
+    text-indent: 36pt
+}
+
+.c62 {
+    font-family: "Consolas";
+    color: #986801
+}
+
+.c70 {
+    padding: 0;
+    margin: 0
+}
+
+.c68 {
+    color: #000000;
+    font-family: "Roboto Mono"
+}
+
+.c4 {
+    color: inherit;
+    text-decoration: inherit
+}
+
+.c50 {
+    font-family: "Consolas";
+    color: #0e101a
+}
+
+.c33 {
+    margin-left: 36pt;
+    padding-left: 0pt
+}
+
+.c65 {
+    font-size: 15pt;
+    font-family: "Hepta Slab"
+}
+
+.c40 {
+    background-color: #d5a6bd
+}
+
+.c38 {
+    font-size: 13pt
+}
+
+.c69 {
+    font-style: italic
+}
+
+.c35 {
+    height: 0pt
+}
+
+.c73 {
+    font-family: "Trebuchet MS"
+}
+
+.c55 {
+    background-color: #fce5cd
+}
+
+.c9 {
+    height: 12pt
+}
+
+.c29 {
+    height: 15pt
+}
+
+.c63 {
+    font-size: 11pt
+}
+
+.c53 {
+    margin-left: 36pt
+}
+
+.c58 {
+    color: #0e101a
+}
+
+.c59 {
+    height: 32.5pt
+}
+
+.c30 {
+    height: 24pt
+}
+
+.c60 {
+    font-family: "Book Antiqua"
+}
+
+.c48 {
+    font-weight: 700
+}
+
+.c61 {
+    font-weight: 400
+}
+
+.title {
+    padding-top: 0pt;
+    color: #000000;
+    font-size: 26pt;
+    padding-bottom: 3pt;
+    font-family: "Trebuchet MS";
+    line-height: 1.5;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+.subtitle {
+    padding-top: 0pt;
+    color: #666666;
+    font-size: 15pt;
+    padding-bottom: 16pt;
+    font-family: "Arial";
+    line-height: 1.5;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+li {
+    color: #000000;
+    font-size: 12pt;
+    font-family: "Trebuchet MS"
+}
+
+p {
+    margin: 0;
+    color: #000000;
+    font-size: 12pt;
+    font-family: "Trebuchet MS"
+}
+
+h1 {
+    padding-top: 0pt;
+    color: #000000;
+    font-weight: 700;
+    font-size: 24pt;
+    padding-bottom: 0pt;
+    font-family: "Trebuchet MS";
+    line-height: 1.5;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+h2 {
+    background-color: #d5a6bd;
+    padding-top: 0pt;
+    color: #000000;
+    font-weight: 700;
+    font-size: 15pt;
+    padding-bottom: 0pt;
+    font-family: "Trebuchet MS";
+    line-height: 1.5;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+h3 {
+    padding-top: 16pt;
+    color: #434343;
+    font-size: 14pt;
+    padding-bottom: 4pt;
+    font-family: "Trebuchet MS";
+    line-height: 1.5;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+h4 {
+    padding-top: 14pt;
+    color: #666666;
+    font-size: 12pt;
+    padding-bottom: 4pt;
+    font-family: "Trebuchet MS";
+    line-height: 1.5;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+h5 {
+    padding-top: 12pt;
+    color: #666666;
+    font-size: 11pt;
+    padding-bottom: 4pt;
+    font-family: "Trebuchet MS";
+    line-height: 1.5;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}
+
+h6 {
+    padding-top: 12pt;
+    color: #666666;
+    font-size: 11pt;
+    padding-bottom: 4pt;
+    font-family: "Trebuchet MS";
+    line-height: 1.5;
+    page-break-after: avoid;
+    font-style: italic;
+    orphans: 2;
+    widows: 2;
+    text-align: left
+}

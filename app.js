@@ -83,10 +83,13 @@ io.on('connection', (socket)=>{
     //send and get message
     socket.on("sendMessage", ({senderId, receiverId, text}) => {
         const user = getUser(receiverId);
-        io.to(user.socketId).emit("getMessage", {
-            senderId,
-            text,
-        })
+        if(user){
+            io.to(user.socketId).emit("getMessage", {
+                senderId,
+                text,
+            })
+
+        }
     })
     //disconnect
     socket.on("disconnect", ()=>{
@@ -114,10 +117,14 @@ app.post("/api/register", async (req, res) => {
     try{
         const username = req.body.username;
         const password = req.body.password;
-        
+        const publickey = req.body.privateKey;
+        const privatekey = req.body.publicKey;
+        console.log(privatekey, publickey)
         const registerUser = new User({
                 username: username,
-                password: password
+                password: password,
+                publickey: publickey, 
+                privatekey:privatekey  
         });
         bcrypt.genSalt(10, (err, salt) => {
             // console.log('is it');
